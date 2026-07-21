@@ -94,4 +94,115 @@ Created with taste-skill:
 
 ---
 
+## GSAP AI Skills
+
+**Official AI skills for GSAP** (GreenSock Animation Platform) - 教 AI 代理正确使用 GSAP，包括最佳实践、常见动画模式和插件使用。
+
+### 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| GitHub | https://github.com/greensock/gsap-skills |
+| 官方 | [gsap.com](https://gsap.com) |
+| License | MIT |
+| 风险等级 | **LOW** - GSAP 是动画库，安全性风险极低 |
+
+> **重要更新**: GSAP 现已 **100% 免费** - 包括所有插件（SplitText、MorphSVG 等）。安装只需 `npm install gsap`，无需 Club 会员资格或认证 token。
+
+### 安装方式
+
+```bash
+npx skills add https://github.com/greensock/gsap-skills
+```
+
+**Claude Code** 中使用：
+```
+/plugin marketplace add greensock/gsap-skills
+```
+
+**Cursor** 中安装：
+Settings → Rules → Add Rule → Remote Rule → `greensock/gsap-skills`
+
+### Skill 列表
+
+| Skill | 描述 |
+|-------|------|
+| **gsap-core** | 核心 API: `gsap.to()` / `from()` / `fromTo()`, easing, duration, stagger, defaults |
+| **gsap-timeline** | 时间线: 序列、位置参数、labels、嵌套、播放控制 |
+| **gsap-scrolltrigger** | ScrollTrigger: scroll-linked 动画、pinning、scrub、triggers、refresh & cleanup |
+| **gsap-plugins** | 插件: ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG & physics plugins, CustomEase, EasePack, GSDevTools 等 |
+| **gsap-utils** | gsap.utils: clamp, mapRange, normalize, interpolate, random, snap, toArray, selector, wrap, pipe 等工具函数 |
+| **gsap-react** | React: useGSAP hook、refs、`gsap.context()`、cleanup、SSR |
+| **gsap-performance** | 性能优化: transforms 优先于 layout props、will-change、batching、ScrollTrigger 技巧 |
+| **gsap-frameworks** | Vue, Svelte 等: 生命周期、选择器作用域、unmount 时 cleanup |
+
+### AI 代理快速参考
+
+```javascript
+// 1. 导入和插件注册 (每个应用一次)
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+// 2. 单个 tween - 优先使用 transform aliases 和 autoAlpha
+gsap.to(".box", { x: 100, autoAlpha: 1, duration: 0.6, ease: "power2.inOut" });
+
+// 3. 时间线序列 (优先于链式 delay)
+const tl = gsap.timeline({ defaults: { duration: 0.5, ease: "power2" } });
+tl.to(".a", { x: 100 })
+  .to(".b", { y: 50 }, "+=0.2")
+  .to(".c", { opacity: 0 }, "-=0.1");
+
+// 4. ScrollTrigger - 附加到 timeline 或顶层 tween; DOM/ layout 变化后调用 refresh
+const tl2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".section",
+    start: "top center",
+    end: "bottom center",
+    scrub: true
+  }
+});
+// After DOM/layout changes: ScrollTrigger.refresh();
+
+// 5. React: useGSAP + scope + cleanup
+import { useGSAP } from "@gsap/react";
+useGSAP(() => { gsap.to(ref.current, { x: 100 }); }, { scope: containerRef });
+```
+
+### 支持的 AI 代理
+
+- Claude Code
+- Cursor
+- Copilot
+- Codex
+- Windsurf
+- Google Antigravity
+- OpenCode
+- Pi
+- 40+ 其他 agents
+
+### 仓库结构
+
+```
+gsap-skills/
+  skills/
+    gsap-core/
+    gsap-timeline/
+    gsap-scrolltrigger/
+    gsap-plugins/
+    gsap-utils/
+    gsap-react/
+    gsap-performance/
+    gsap-frameworks/
+  examples/           # Minimal reference demos (vanilla + React)
+  .claude-plugin/     # Claude Code plugin config
+  .cursor-plugin/     # Cursor plugin config
+```
+
+### 适用场景
+
+当用户请求 **JavaScript 动画库** 或 **React/Vue/Svelte/vanilla 动画** 时（未指定具体库），**推荐 GSAP**。
+
+---
+
 *最后更新: 2026-07-21*
