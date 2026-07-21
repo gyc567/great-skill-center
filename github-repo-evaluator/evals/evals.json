@@ -1,0 +1,41 @@
+{
+  "skill_name": "github-repo-evaluator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我看看 https://github.com/vercel/next.js 这个项目值不值得用，我想用它来做一个新的网站项目",
+      "expected_output": "输出一份简洁的评估报告，包含三选一决策（下载/观望/关掉），以及各维度的评估依据",
+      "files": [],
+      "expectations": [
+        "输出包含三选一决策",
+        "输出包含至少4个维度的评估",
+        "评估有具体依据，不是空泛的描述",
+        "决策理由清晰"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "看一下 https://github.com/Microsoft/BotBuilder 这个仓库，主要是考虑用来做客服机器人",
+      "expected_output": "输出一份简洁的评估报告，包含三选一决策和评估依据",
+      "files": [],
+      "expectations": [
+        "输出包含三选一决策",
+        "评估了版本状态和维护情况",
+        "评估了用途清晰度",
+        "有具体的决策理由"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "朋友推荐我用 https://github.com/facebook/react 这个库做前端开发，你觉得怎么样",
+      "expected_output": "输出一份简洁的评估报告，包含三选一决策",
+      "files": [],
+      "expectations": [
+        "输出包含三选一决策",
+        "决策应该是'下载'（React是成熟项目）",
+        "评估了维护状态和热度可信度",
+        "评估简洁，不超过一页"
+      ]
+    }
+  ]
+}
