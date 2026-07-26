@@ -1,0 +1,83 @@
+# crypto-harmonic-signals 配置
+# 默认配置文件
+
+# ============ 扫描配置 ============
+symbols:
+  - BTC/USDT    # 比特币
+  - ETH/USDT    # 以太坊
+  - BNB/USDT    # 币安币
+  - SOL/USDT    # Solana
+  - ZEC/USDT    # Zcash
+  - UNI/USDT    # Uniswap
+  - AVAX/USDT   # Avalanche
+  - AAVE/USDT   # Aave
+  - HYPE/USDT   # Hyperliquid
+
+exchanges:
+  primary: binance
+  fallbacks: [okx, bybit]
+
+# ============ K线周期配置 ============
+timeframes:
+  harmonic: "4h"       # 和谐形态检测
+  trend: "1d"          # EMA200 趋势判断
+  rsi: "4h"            # RSI 计算
+
+# ============ EMA 配置 ============
+ema:
+  period: 200
+  neutral_zone_pct: 0.01
+
+# ============ RSI 配置 ============
+rsi:
+  period: 14
+  oversold: 30
+  overbought: 70
+
+# ============ 和谐形态配置 ============
+harmonics:
+  zz_pct: 0.03
+  tol: 0.12
+  patterns:
+    - Gartley
+    - Bat
+    - Butterfly
+    - Crab
+    - DeepCrab
+  min_grade: "B"
+
+# ============ 止损配置 ============
+stop_loss:
+  type: "atr_buffer"
+  atr_period: 14
+  atr_multiplier: 0.7
+  prz_buffer_ratio: 0.005
+
+# ============ 止盈配置 ============
+take_profit:
+  tp1_ratio: 0.382
+  tp2_ratio: 0.618
+  partial_exit_1: 0.50
+  partial_exit_2: 1.00
+
+# ============ 三次扫描时间 ============
+schedule:
+  times:
+    - "00:00"
+    - "08:00"
+    - "16:00"
+  timezone: "Asia/Shanghai"
+
+# ============ 风险控制 ============
+risk:
+  max_positions: 3
+  max_risk_per_trade: 0.02
+  max_total_risk: 0.06
+  signal_expiry_hours: 8
+
+# ============ Telegram 配置 ============
+telegram:
+  enabled: false
+  bot_token: ""
+  chat_id: ""
+  new_signal_only: true
