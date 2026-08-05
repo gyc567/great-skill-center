@@ -206,3 +206,79 @@ gsap-skills/
 ---
 
 *最后更新: 2026-07-21*
+## Emil Kowalski's Design & Animation Skills
+
+**Skills for Designers and Engineers** - 来自 Vercel/Linear 前设计师 Emil Kowalski，专注于 UI 动画、组件设计、交互体验的把关。
+
+### 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| GitHub | https://github.com/emilkowalski/skills |
+| 官网 | https://animations.dev |
+| Stars | 25,142 |
+| License | MIT |
+
+> "AI doesn't replace expertise — it amplifies what you can get out of it."
+
+### 安装方式
+
+```bash
+npx skills@latest add emilkowalski/skills
+```
+
+### 核心哲学
+
+**动画不是装饰，是体验。** 正确地做动画 vs 做了动画，是两件完全不同的事。核心原则：
+
+ **频率决定动画强度**：键盘快捷键 100+/天 → 零动画；偶尔出现的模态框 → 标准动画
+ **ease-out 是 UI 的默认**：进入/退出用 ease-out，从不快 ease-in
+ **300ms 以内**：UI 动画超过 300ms 会感觉迟钝
+ **从 scale(0.95) 开始**：现实世界没有东西从虚无出现
+ **可中断性**：用户可以随时打断手势动画并反向
+
+### Skill 列表
+
+| Skill | 描述 | 触发词 |
+|-------|------|--------|
+| **emil-design-eng** | 主技能，UI polish、组件设计、动画决策的哲学体系 | 问 UI 问题、问动画、问设计细节 |
+| **review-animations** | 对动画代码进行严格审查，flag 问题而非 approve | "review 动画"、"review 这个 diff" |
+| **improve-animations** | 审计动画代码，输出优先级排序 + 可执行的修复计划 | "improve 动画"、"audit motion" |
+| **find-animation-opportunities** | 扫描代码库中应该加动画的地方，核心是"不该加的不加" | "哪里可以加动画"、"make this feel alive" |
+| **animation-vocabulary** | 动画术语反向词典：把模糊描述变成精确术语 | "这个动画叫什么"、"what's it called when..." |
+| **apple-design** | Apple WWDC 设计原则的 Web 翻译：手势、弹簧、Material Design | "Apple 风格"、"gesture-driven UI" |
+| **pick-ui-library** | 精选的 UI 库推荐列表（Sonner, base-ui, motion, cmdk 等） | "用什么库"、"pick a library" |
+| **prototype** | 构建多个 UI 变体，可视化 picker 对比选择 | "prototype"、"build variants" |
+
+### 快速参考
+
+**Easing 曲线**：
+```css
+```
+
+**时长预算**：
+| 元素 | 时长 |
+|------|------|
+| 按钮反馈 | 100-160ms |
+| Tooltip | 125-200ms |
+| Dropdown/Select | 150-250ms |
+| Modal/Drawer | 200-500ms |
+
+**弹簧配置（Apple 风格）**：
+```js
+// 默认 UI：无 overshoot
+{ type: "spring", duration: 0.5, bounce: 0 }
+
+// 有动量的手势：轻微弹跳
+{ type: "spring", duration: 0.5, bounce: 0.2 }
+```
+
+### 相关资源
+
+ [animations.dev](https://animations.dev) - Emil 的课程
+ [emilkowal.ski](https://emilkowal.ski/) - 博客：UI、动画、设计工程
+ [Sonner](https://sonner.emilkowal.ski) - Emil 开发的 Toast 库
+ [skills.sh](https://skills.sh/emilkowalski/skills) - 安装页面
+
+
+*最后更新: 2026-08-05*
