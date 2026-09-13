@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper to CN Patent"
+  short_description: "Turn papers into Chinese patent drafts"
+  default_prompt: "Use $paper-to-cn-patent to convert my finished paper, figures, and author notes into a Chinese invention patent draft with claims, specification sections, and a manual review checklist."
