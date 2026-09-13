@@ -1,0 +1,31 @@
+# ICP 配置示例
+
+## 目标客户画像
+icp:
+  industries:
+    - SaaS
+    - Fintech
+    - E-commerce
+  employee_range: "50-500"
+  funding_stage:
+    - Series A
+    - Series B
+  geography:
+    - 中国
+    - 东南亚
+
+## 积极信号
+tech_signals_positive:
+  - Stripe
+  - Twilio
+  - AWS
+
+tech_signals_negative:
+  - legacy Oracle
+  - on-premise
+
+## 触发事件
+trigger_events:
+  - 新融资
+  - 招聘爆发
+  - 扩张新闻
