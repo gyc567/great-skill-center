@@ -1,0 +1,183 @@
+{
+  "objections": [
+    {
+      "id": "obj_price",
+      "keyword": [
+        "太贵",
+        "价格高",
+        "贵",
+        "预算",
+        "买不起",
+        "太贵了"
+      ],
+      "category": "价格",
+      "strategies": [
+        {
+          "id": "strat_001",
+          "text": "分解成本，强调 ROI。计算使用我们方案后每年节省的成本，展示长期价值。",
+          "success_rate": 0.85,
+          "use_count": 120,
+          "last_used": null
+        },
+        {
+          "id": "strat_002",
+          "text": "对比竞品价格，说明性价比。我们不是最贵的，但性价比最高。",
+          "success_rate": 0.72,
+          "use_count": 89,
+          "last_used": null
+        },
+        {
+          "id": "strat_003",
+          "text": "提供分期付款或阶梯定价，降低客户初期投入压力。",
+          "success_rate": 0.68,
+          "use_count": 45,
+          "last_used": null
+        },
+        {
+          "id": "strat_004",
+          "text": "强调免费试用期，让客户先体验价值再决定。",
+          "success_rate": 0.65,
+          "use_count": 67,
+          "last_used": null
+        }
+      ]
+    },
+    {
+      "id": "obj_need",
+      "keyword": [
+        "不需要",
+        "没需求",
+        "考虑中",
+        "不需要",
+        "没兴趣",
+        "再看看"
+      ],
+      "category": "需求",
+      "strategies": [
+        {
+          "id": "strat_101",
+          "text": "通过提问发现潜在痛点：'您目前是怎么处理XXX的？' 引导客户自己意识到问题。",
+          "success_rate": 0.78,
+          "use_count": 95,
+          "last_used": null
+        },
+        {
+          "id": "strat_102",
+          "text": "分享同行业成功案例，让客户看到同行是如何解决问题的。",
+          "success_rate": 0.7,
+          "use_count": 72,
+          "last_used": null
+        },
+        {
+          "id": "strat_103",
+          "text": "提供免费诊断或评估服务，让客户亲身体验价值。",
+          "success_rate": 0.62,
+          "use_count": 38,
+          "last_used": null
+        }
+      ]
+    },
+    {
+      "id": "obj_time",
+      "keyword": [
+        "没时间",
+        "太忙",
+        "之后再说",
+        "现在不方便",
+        "改天"
+      ],
+      "category": "时间",
+      "strategies": [
+        {
+          "id": "strat_201",
+          "text": "强调快速实施：'只需要30分钟介绍，就能帮您节省大量时间'。",
+          "success_rate": 0.75,
+          "use_count": 88,
+          "last_used": null
+        },
+        {
+          "id": "strat_202",
+          "text": "提供异步资料：'我先把资料发您，有空时看看，有问题随时问我'。",
+          "success_rate": 0.68,
+          "use_count": 56,
+          "last_used": null
+        },
+        {
+          "id": "strat_203",
+          "text": "约定具体时间：'这周三下午2点，您方便吗？我只占用您15分钟'。",
+          "success_rate": 0.55,
+          "use_count": 34,
+          "last_used": null
+        }
+      ]
+    },
+    {
+      "id": "obj_competitor",
+      "keyword": [
+        "在用",
+        "比你们好",
+        "其他家",
+        "竞品",
+        "已经选了"
+      ],
+      "category": "竞品",
+      "strategies": [
+        {
+          "id": "strat_301",
+          "text": "差异化对比：'他们的优势是XXX，我们的优势是YYY，您更看重哪方面？'",
+          "success_rate": 0.72,
+          "use_count": 63,
+          "last_used": null
+        },
+        {
+          "id": "strat_302",
+          "text": "开放心态：'可以了解下他们给您什么方案吗？我帮您分析下是否满足需求'。",
+          "success_rate": 0.58,
+          "use_count": 41,
+          "last_used": null
+        },
+        {
+          "id": "strat_303",
+          "text": "未来导向：'如果将来有需求变化，我们方案的扩展性会更好'。",
+          "success_rate": 0.48,
+          "use_count": 27,
+          "last_used": null
+        }
+      ]
+    },
+    {
+      "id": "obj_feature",
+      "keyword": [
+        "功能不够",
+        "不能满足",
+        "缺少",
+        "不支持",
+        "能不能"
+      ],
+      "category": "功能",
+      "strategies": [
+        {
+          "id": "strat_401",
+          "text": " roadmap 展示：'这个功能我们 Q2 会上线，我可以帮您加入提前测试名单'。",
+          "success_rate": 0.7,
+          "use_count": 52,
+          "last_used": null
+        },
+        {
+          "id": "strat_402",
+          "text": "变劣势为优势：'虽然我们不做XXX，但我们的YYY做得更深，能更好解决您的问题'。",
+          "success_rate": 0.65,
+          "use_count": 44,
+          "last_used": null
+        },
+        {
+          "id": "strat_403",
+          "text": "集成能力说明：'我们可以和您现有的XXX系统集成，实现完整解决方案'。",
+          "success_rate": 0.6,
+          "use_count": 33,
+          "last_used": null
+        }
+      ]
+    }
+  ]
+}
