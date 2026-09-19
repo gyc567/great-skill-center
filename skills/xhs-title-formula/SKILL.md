@@ -1,6 +1,7 @@
 ---
-name: xhs-title
-description: |
+name: xhs-title-formula
+brand: AI Skills 创作小店
+description: "小红书爆款标题公式：75个经验证标题模板，12类心理触发器智能匹配。输入话题+行业，自动生成定制标题并标注来源公式编号。买断¥0.99。"
   小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。
   触发方式：/xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」
   Xiaohongshu title formula tool. Pick the right formula from 75 proven templates.

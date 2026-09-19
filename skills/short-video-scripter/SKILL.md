@@ -1,5 +1,6 @@
 ---
 name: short-video-scripter
+brand: AI Skills 创作小店
 slug: aaron-short-video-scripter
 displayName: "Short Video Scripter · 短视频脚本"
 summary: "短视频节拍脚本/0-2秒钩子/竖屏9:16参数/AI合成内容声明"
