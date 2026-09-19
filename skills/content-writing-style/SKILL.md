@@ -1,4 +1,6 @@
 ---
+name: content-writing-style
+brand: AI Skills 创作小店
 description: 当任务进入选题 framing、标题拟定、完整写稿、改写、扩写或润色时，用它统一语气、结构和禁区。
 allowedRuntimeModes: [wander, redclaw, chatroom]
 hookMode: inline
