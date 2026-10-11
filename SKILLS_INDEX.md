@@ -104,11 +104,12 @@ All skills are organized under `skills/` by source.
 - `prototype` — Prototype
 - `review-animations` — Review animations
 
-## Doubao Work (4 skills - X/Twitter 运营方法论)
+## Doubao Work (5 skills - X/Twitter + 抖音运营方法论)
 - `x-emotion-hook` — X 情绪钩子推文方法论（情绪即流量，拆解爆款+引评论）
 - `x-original-content-creator` — X 原创内容收益合规创作助手（Original Content Rewards 标准）
 - `tweet-composer` — X 开源算法推文打分器（0-100 分卡）
 - `x-algorithm-expert` — X 开源算法专家（22 信号权重 + 10 点打分 + 18 过滤器）
+- `douyin-search-word-ending` — 抖音结尾高频搜索词截图法（结尾定格0.1秒埋100个行业热搜词，吃搜索流量）
 
 ---
 Total: 90+ skills
