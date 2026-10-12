@@ -112,5 +112,8 @@ All skills are organized under `skills/` by source.
 - `douyin-search-word-ending` — 抖音结尾高频搜索词截图法（结尾定格0.1秒埋100个行业热搜词，吃搜索流量）
 - `douyin-video-publish-sop` — 抖音卡片大字视频制作+发布端到端 SOP（情绪故事六卡文案→PIL大字卡→灰词埋词→ffmpeg合成→创作者中心发布）
 
+## Cinematic (original - 电影广告大片)
+- `cinematic-ad-film` — 电影广告大片生产线（导演视觉语言锚定 → 创意原点+广告语 → 主体一致性设定卡 → 分镜脚本 → 关键帧/图生视频 → 电影级后期调色/字幕/配乐/精确时长，产出 15s 竖屏大片）
+
 ---
 Total: 90+ skills
