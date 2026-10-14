@@ -126,5 +126,8 @@ All skills are organized under `skills/` by source.
 - `awesome-seedance` — Seedance 2.0 提示词库：40+ 条可直接复制的高保真提示词，按 7 大题材分类 + 9 大商用玩法
 - `shortfilm-prompt` — 电影感 AI 短视频提示词生成器：5 段式结构 + 27 套类型模板（Sora / Kling / Veo / Seedance / 即梦通用）
 
+## 技能工程 / 工具 (original - 自建)
+- `github-skill-audit-install` — 从任意 GitHub 仓库「安全审计 + 安装」Agent Skill 的标准流程（拉取完整清单 → P0/P1/P2 静态审计 → curl 直下安装 → 字节级完整性校验 → 与上游 diff → 输出审计报告）。本仓库中所有第三方技能的引入均走此流程。
+
 ---
-Total: 95+ skills
+Total: 107 skills
