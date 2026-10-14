@@ -112,8 +112,19 @@ All skills are organized under `skills/` by source.
 - `douyin-search-word-ending` — 抖音结尾高频搜索词截图法（结尾定格0.1秒埋100个行业热搜词，吃搜索流量）
 - `douyin-video-publish-sop` — 抖音卡片大字视频制作+发布端到端 SOP（情绪故事六卡文案→PIL大字卡→灰词埋词→ffmpeg合成→创作者中心发布）
 
-## Cinematic (original - 电影广告大片)
-- `cinematic-ad-film` — 电影广告大片生产线（导演视觉语言锚定 → 创意原点+广告语 → 主体一致性设定卡 → 分镜脚本 → 关键帧/图生视频 → 电影级后期调色/字幕/配乐/精确时长，产出 15s 竖屏大片）
+## 视频制作流水线 (original - 自建)
+- `product-short-video` — 产品短视频生产线（多创意方向选型 → 主体一致性设定卡 → 分镜脚本 → 关键帧/图生视频 → 后期合成，面向投放 / 带货 / 种草）
+- `cinematic-ad-film` — 电影广告大片生产线（导演视觉语言锚定 → 创意原点+广告语 → 分镜脚本 → 关键帧/图生视频 → 电影级后期调色 / 字幕 / 配乐 / 精确时长，产出 15s 竖屏大片）
+
+## 导演 / 影视风格技能包 (from GitHub · 均为 MIT)
+
+来源：github.com/Mikefluff/skills · github.com/nolanx-ai/nolanx.ai · github.com/ZeroLu/awesome-seedance · github.com/jnMetaCode/ai-shortfilm-prompts
+安装前已做静态安全审计（P0=0，全部为纯 Markdown，无脚本 / 无网络调用 / 无凭证读取），报告见 `docs/audit-video-skills-2026-10-12.md`。
+
+- `video-director-styles` — 导演风格库：12 种导演的镜头语法（诺兰 IMAX 手持 / 芬奇冷调低调 / 韦斯·安德森对称 / 王家卫霓虹 / 维伦纽瓦宏大 / 塔可夫斯基凝视 / 伊纳里图长镜 / 林奇梦境 / 埃德加·赖特快切 / 沙泽勒歌舞光晕 / 雷弗恩霓虹静 / 索德伯格自然光），每种含焦段 / 光比 / 运镜 / 剪辑节奏 / 色板 / 动作词汇
+- `nolanx-director-visual-language` — 导演视觉语言库：20 个导演级子技能（视觉语言翻译 / 镜头语言 / 打光逻辑 / 分镜设计 / 连续性管控 / 短剧钩子 / 广告心理学 / Seedance 提示词工程等）
+- `awesome-seedance` — Seedance 2.0 提示词库：40+ 条可直接复制的高保真提示词，按 7 大题材分类 + 9 大商用玩法
+- `shortfilm-prompt` — 电影感 AI 短视频提示词生成器：5 段式结构 + 27 套类型模板（Sora / Kling / Veo / Seedance / 即梦通用）
 
 ---
-Total: 90+ skills
+Total: 95+ skills
