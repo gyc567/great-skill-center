@@ -1,0 +1,4 @@
+interface:
+  display_name: "personal-ip-master · IP 打造教练"
+  short_description: "档案驱动的 IP 教练：先重判真实问题，再做内容与增长"
+  default_prompt: "使用 $personal-ip-master：首次使用先建立私人 IP 档案；已有档案时先结合档案和数据重判我的真实问题，再完成当前任务。"
