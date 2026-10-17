@@ -1,6 +1,24 @@
 ---
 name: personal-ip-master
-description: 档案驱动的 IP 打造陪跑教练。首次使用先建立私人档案；之后结合档案、历史数据与当前证据重判真实问题，再完成人设与账号定位、内容支柱、找题判题改题、短视频脚本与口播稿、镜头表现意图、起号涨粉、系列与账号记忆、内容复盘或内容变现。也用于“新手入门”“怎么用”“更新 personal-ip-master”等入口请求。自然语言或宿主支持的 /personal-ip-master 均从同一入口路由。
+description: >-
+  个人 IP 打造大师 — 让 AI 变身为你的个人 IP 打造陪跑教练。
+  从建档诊断、账号定位、内容选题、短视频脚本、口播稿、镜头表现、起号增长、
+  内容复盘到商业变现，提供完整的 IP 打造全流程指导。
+  适合内容创业者、个人品牌主理人、想通过 IP 引流的中小企业老板。
+  核心原则：先有人设，再做内容。
+brand: AI Skills 创作小店
+price: 3990
+tags:
+  - 个人IP
+  - 内容创业
+  - IP打造
+  - 短视频
+  - 账号运营
+  - 涨粉变现
+specs:
+  - SPEC-DEFAULT
+  - PLAN-DEFAULT
+  - SKU-DEFAULT
 ---
 
 # personal-ip-master
