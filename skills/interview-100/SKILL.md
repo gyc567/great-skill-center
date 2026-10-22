@@ -3,6 +3,11 @@ name: interview-100
 brand: AI Skills 创作小店
 description: "100道高频面试题+标准答法，AI模拟面试陪练，覆盖自我介绍/项目经历/行为面，¥0.99引流款。"
 priceConfigJson: {"billingCycleType": "buyout", "amount": 99, "currency": "CNY", "payType": "PREPAY"}
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 面试百问精选
@@ -82,3 +87,25 @@ STAR示例：描述分歧场景 → 我的处理方式 → 结果
 ---
 
 > 使用方法：选一个问题，用3分钟写出答案，再让AI帮你优化表达
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

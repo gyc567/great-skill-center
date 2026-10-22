@@ -66,7 +66,11 @@ chains_well_with:
   - "academic-language-sentence-frame-generator"
 teacher_time: "3 minutes"
 tags: ["vocabulary", "tiering", "Tier-2", "academic-language", "EAL", "word-teaching"]
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Vocabulary Tiering Tool
@@ -293,3 +297,25 @@ Display six sentences on the board, each with a gap. Students choose the correct
 2. **Pre-teaching vocabulary is necessary but not sufficient.** Students need multiple exposures (Stahl & Nagy suggest 10–12) in varied contexts before a word is truly acquired. A single pre-teaching session introduces the word; it must be revisited throughout the lesson, the week, and the unit. The teaching cards provide the initial exposure; the teacher must plan for repetition.
 
 3. **The tool analyses vocabulary at the word level but academic language is also about phrases and structures.** "On the other hand," "as a result of," "in contrast to" are multi-word expressions that function as single vocabulary items. The tool identifies individual words but may not capture all the significant multi-word phrases that students need.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

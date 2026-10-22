@@ -11,6 +11,11 @@ specs:
   - SPEC-DEFAULT
   - PLAN-DEFAULT
   - SKU-DEFAULT
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 公众号文章排版 Skill
@@ -177,3 +182,25 @@ specs:
 添加后在 `references/theme-index.md` 登记一行（主题名 / 主色 / 适用场景 / 组件库文件 / 正文下划线 CSS），并跑 `python3 scripts/component_lint.py .` 确认组件库无反模式（0 ERROR）。
 
 > 触发与主题选择的回归用例见 `references/eval-cases.md`（维护时用于回归核对，不影响单次生成）。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

@@ -1,9 +1,14 @@
 ---
 name: travel-film-director
 brand: AI Skills 创作小店
+price: 1490
 priceConfigJson: {"billingMode": "PAY_BY_SKILL", "billingType": "oneTime", "priceType": "currentPrice", "priceAmount": 499, "skuId": "SKU-DEFAULT", "specId": "SPEC-DEFAULT"}
 description: 规划、编写、审阅和修复由真实授权素材与 AI 生成镜头混合制作的电影级文旅宣传片。用于文旅短片创意简报、场景图筛选、首帧空间分析、分镜脚本、画面内容提示词、人物动作、导演级运镜、自然动机布光、转场与尾帧衔接、Seedance 2.0/可灵/Midjourney 提示词、生成结果诊断、时间线与合规风险检查；尤其适用于需要写实、辽阔、自由感和角色剧情连续性的项目。
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # AI 文旅电影导演
@@ -113,3 +118,25 @@ python3 scripts/lint_shot_manifest.py shot-manifest.yaml
 8. `07-qc-report.md`
 
 西藏项目还必须读取 [tibet-reference.md](references/tibet-reference.md)。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

@@ -3,7 +3,11 @@ name: miora-video-studio-cn
 brand: AI Skills 创作小店
 priceConfigJson: {"billingMode": "PAY_BY_SKILL", "billingType": "oneTime", "priceType": "currentPrice", "priceAmount": 299, "skuId": "SKU-DEFAULT", "specId": "SPEC-DEFAULT"}
 description: miora 视频生成的可靠性与规格层——补内置技能未覆盖的部分：四必填参数闸门（模式/分辨率/时长/画幅缺一不可提交）、时长区间闸门、完成信号的判定与轮询等待、官方规格口径与本通道实测差异（时长/分辨率/参考图上限）、文生/首尾帧/参考生三种模式的参数事实、提示词的自动修正边界、生成状态向用户的同步。当用户要生成视频、动效、短视频，或提到参考生视频/首尾帧/图生视频、miora 视频、minimax h3、视频生成进度、视频怎么还没出来时使用。
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # miora 视频生成工作台
@@ -395,3 +399,25 @@ H3 的合法区间是 **4–15 秒**（整数）。但 4 秒这一档本机没�
 
 - **多分镜塞进单次生成，模型会自由取舍**，不会严格按你写的秒数切镜头——要精确切分只能分条生成再拼。
 - **严格跨条身份一致做不到。** 参考图只能逼近，多条之间必有可见差异。用户有硬要求时说明限制让用户决定，不要硬做后交一堆对不上的片子。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

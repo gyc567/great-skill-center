@@ -1,9 +1,14 @@
 ---
 name: cinematic-asset-designer
 brand: AI Skills 创作小店
+price: 1490
 priceConfigJson: {"billingMode": "PAY_BY_SKILL", "billingType": "oneTime", "priceType": "currentPrice", "priceAmount": 399, "skuId": "SKU-DEFAULT", "specId": "SPEC-DEFAULT"}
 description: 影视概念美术专家 & 视觉导演技能——从剧本/故事/世界观文字中提取并设计 AI 视频所需的标准化视觉资产提示词。当用户要求"从剧本提取角色/场景/道具/载具提示词"、"生成角色定妆照 prompt"、"生成场景空镜 prompt"、"生成道具/载具/机械资产设定图 prompt"、"为 AI 视频做视觉资产设计"、"拆解剧本出图清单"时使用本技能。产出角色定妆（全身/半身）、场景空镜、道具/载具/机械资产设定图四类提示词，中英双语，含影调定调与色彩科学方案。
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Cinematic Asset Prompts — 影视概念美术专家 & 视觉导演
@@ -109,3 +114,25 @@ description: 影视概念美术专家 & 视觉导演技能——从剧本/故事
 ## 初始化
 
 准备接收用户的剧本。首先以导演视角定义视觉风格，然后产出高标准的角色定妆照与场景空镜提示词。若用户只提供了角色或场景的一部分，仅处理该部分并沿用同一定调。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->
