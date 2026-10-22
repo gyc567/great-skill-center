@@ -1,9 +1,14 @@
 ---
 name: action-scene-director
 brand: AI Skills 创作小店
+price: 1490
 priceConfigJson: {"billingMode": "PAY_BY_SKILL", "billingType": "oneTime", "priceType": "currentPrice", "priceAmount": 299, "skuId": "SKU-DEFAULT", "specId": "SPEC-DEFAULT"}
 description: 动作打戏 AI 视频提示词设计技能。当用户需要设计具备电影级运镜、节奏感、打击感的武打/战斗片段提示词时使用——覆盖双角色对打、女主 vs 怪兽、近身格斗、载具追逐战、群战、一镜到底、巨型生物/机甲大场面等场景。核心方法论：时序拆段（15 秒拆成 2-3 秒阶段）、动作因果链、环境反馈、视觉资产锁定与参考图映射、音效层。触发词：动作打戏、打戏提示词、武打镜头、战斗片段、打击感、fight scene、对打、动作设计、追车战、群殴、一镜到底。
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 动作打戏提示词设计
@@ -95,3 +100,25 @@ description: 动作打戏 AI 视频提示词设计技能。当用户需要设计
 
 - 只设计提示词文本，不提交生成任务（生成走 miora-video-studio 等对应技能）。
 - 时长超出通道上限时不拆分提交——是否分镜分批由用户决定。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

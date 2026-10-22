@@ -4,6 +4,11 @@ description: >-
   时区信息套利 Agent：在美国东部时间凌晨 2-6 AM（全球政府公告、央行决议高发期），
   扫描各国官方信息源，捕捉预测市场错误定价机会。输入要追踪的国家/事件类型，
   输出事件扫描报告与错价分析。适合有技术背景的交易者。
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 时区信息套利（Timezone Information Arbitrage）
@@ -256,3 +261,25 @@ Agent 执行后输出：
 - 自动化交易存在平台封号、策略失效等风险
 - 代码仅供参考，实际部署前请充分测试
 - $200 → $300K 案例为极端个例，存在严重幸存者偏差
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

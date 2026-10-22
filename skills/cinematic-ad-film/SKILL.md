@@ -2,6 +2,11 @@
 name: cinematic-ad-film
 description: 电影广告大片生产线 —— 用导演视觉语言把一件普通产品拍成"消费不起"的奢侈品级大片。当用户要求"把 X 拍成奢侈品 / 电影感 / 广告大片 / 品牌片"、指定某位导演风格（诺兰、维伦纽瓦、王家卫、韦斯·安德森…）做产品片、要"看起来像电影预告片/概念大片"，或明确要求"先生成创意脚本和广告语，最后再生成视频"时使用。覆盖「导演风格锚定 → 创意原点 + 广告语 → 主体一致性设定卡 → 分镜脚本 → 关键帧/图生视频 → 电影级后期（调色/字幕/配乐/精确时长）」全流程，产出 15s 竖屏电影感成片。
 agent_created: true
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 电影广告大片生产线 (Cinematic Ad Film)
@@ -142,3 +147,25 @@ agent_created: true
 - `references/prompt-recipes.md` — 锚定片段写法、分镜图/图生视频 prompt 模板、实战范例
 - `references/edit-recipes.md` — 电影级 ffmpeg 后期配方、字幕描边方案与**踩坑清单**
 - `scripts/assemble_video.py` — 拼接 + 调色（含 `film`/`nolan` 预设）+ 描边字幕 + 精确时长 + 配乐一键脚本
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

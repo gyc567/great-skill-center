@@ -1,6 +1,11 @@
 ---
 name: x-original-content-creator
 description: X 原创内容收益（Original Content Rewards）合规创作助手。基于官方帮助文档 https://help.x.com/en/using-x/original-content-rewards 提炼的规则，用于辅助作者创作能产生「合格曝光」的原创内容。用于：(1) 写 X 帖子/长文/视频脚本前，判断选题与内容是否算官方定义的"原创"、是否踩 4 类非原创红线；(2) 按合格曝光标准（Premium 用户 Home Timeline 唯一曝光、帖子 50% 可见）优化内容；(3) 发布前过合规自查（自动化手段、soliciting、monetization coaching、Community Note 等取消资格项）；(4) 结合账号门槛（90 天 50 万曝光、500 验证粉）规划创作节奏。当用户要求"写原创内容""按 X 收益标准创作""避免搬运/洗稿""拿 X 收益分成"时触发。
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # X 原创内容收益创作助手
@@ -75,3 +80,25 @@ description: X 原创内容收益（Original Content Rewards）合规创作助�
 - 搬运是零分，评论是加分，亲历是满分。
 - 你的收益不是曝光量，是 **Premium 用户愿意停留的那一半屏幕**。
 - 求赞是乞讨，给观点是赚钱。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

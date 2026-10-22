@@ -1,17 +1,21 @@
----
-name: ai-humanizer
+---name: ai-humanizer
 brand: AI Skills 创作小店
-description: "AI痕迹去除师：识别并去除文章中的74种AI写作特征。P0严重痕迹（机器腔、模板句）优先清除，支持detect/rewrite/edit三种模式，适用于论文、笔记、自媒体内容。买断¥0.99。" ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this sound less like AI." Supports a detect-only mode, an edit-in-place mode for files, an optional voice profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence pass.
+description: '"AI痕迹去除师：识别并去除文章中的74种AI写作特征。P0严重痕迹（机器腔、模板句）优先清除，支持detect/rewrite/edit三种模式，适用于论文、笔记、自媒体内容。买断¥0.99。" ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this sound less like AI." Supports a detect-only mode, an edit-in-place mode for files, an optional voice profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence pass.'
 version: 1.0.0
 license: MIT
 compatibility: Any AI coding assistant that supports agentskills.io SKILL.md format (Claude Code, Cursor, VS Code Copilot, Hermes Agent, OpenHands, etc.) or OpenClaw. No external tools or APIs required.
 metadata:
-  author: AI Skills 创作小店 (Original: Conor Bronsdon, MIT License)
+  author: 'AI Skills 创作小店 (Original: Conor Bronsdon, MIT License)'
   repository: https://github.com/conorbronsdon/avoid-ai-writing
   tags: writing editing voice quality
-  agentskills_spec: "1.0"
+  agentskills_spec: '1.0'
   openclaw:
-    emoji: "✍️"
+    emoji: ✍️
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Avoid AI Writing — Audit & Rewrite
@@ -312,3 +316,25 @@ None of the following may be **added** to a text that did not already contain it
 **The test.** For each edit, ask whether its information and stance came from the source or an explicit user correction, and whether the requested scope permits the change. Subtraction and sharpening are in scope when they preserve meaning: cut filler, use supplied details, and surface a buried point. Do not add unsupported personality, stance, or facts. Adapted from `isatimur/de-slop`'s guardrails: subtract and sharpen without inventing.
 
 **Why it belongs here rather than in the pattern catalog.** These are constraints on the editor, not detections on the text. A first-person aside is not a flag when the author wrote it; it is a failure when the tool inserted it. The difference is provenance, which no pattern can see, so it lives with the rewrite instructions where the decision is actually made.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

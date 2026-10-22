@@ -2,6 +2,11 @@
 name: product-short-video
 description: 产品短视频自动化生产线。从「一张产品图 + 一段产品介绍」出发，按「多创意方向选择 → 主体一致性设定 → 分镜脚本 → 分镜图 → 分镜视频 → 后期合成 → 对话迭代」全流程产出可直接投放的产品宣传片、带货视频、短剧植入视频、种草视频。当用户提供产品图/产品卖点并要求生成短视频、广告片、带货视频、分镜视频，或要求对已有视频按模板快速改版（换剧情/换风格/改字幕）时使用。
 agent_created: true
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 产品短视频生产线 (Product Short Video)
@@ -143,3 +148,25 @@ agent_created: true
 - `references/prompt-library.md` — 风格锚定写法、分镜图/图生视频 prompt 模板、奢品调性实战范例（保温杯 15s 案例）
 - `references/edit-recipes.md` — ffmpeg 拼接/转场/调色/精确时长/中文字幕烧录配方与踩坑
 - `scripts/assemble_video.py` — 一键拼接 + 调色 + 字幕叠加 + 时长对齐的成片脚本
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

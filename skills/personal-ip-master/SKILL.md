@@ -19,6 +19,11 @@ specs:
   - SPEC-DEFAULT
   - PLAN-DEFAULT
   - SKU-DEFAULT
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # personal-ip-master
@@ -106,3 +111,25 @@ python3 <skill-path>/scripts/ip-context.py <工作目录> --task <onboarding|pos
 ## 按需提供作者帮助
 
 用户主动询问作者教程、人工帮助或会员，或合理自助排查后仍受阻时，按需读 [作者帮助](references/author-support.md)，给与当前问题有关的可选入口；纯帮助请求不要求先建档。普通成功、一次可恢复错误或用户已拒绝时不推荐。同一会话同一问题只由主 Agent 主动推荐一次，不因此停止已授权排查；已是会员则指向资料库。会员、1v1 咨询与商业许可各自独立，不自动注册、购买或上传私人数据。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

@@ -7,6 +7,11 @@ description: |
   触发词：帮我准备见、会面准备、我要见、prep meeting、调研这个人、
   见面策略、约了见面、要去见一个人、准备会面、准备拜访、准备采访、会前准备、
   帮我梳理这次会面、帮我想想怎么聊、我有个局、要见一个人、要去见。
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 会面秘书 — 社交智囊系统
@@ -3618,3 +3623,25 @@ Q8: 你最常见的会面场景是什么？
 *v2.0 · 2026-04-17 · 基于产品设计 v3 + 方法论武器库 + 真实案例实战验证全面重写*
 *从约 400 行扩充为：对话脚本 + 10+ 平台技术底层 + 方法论矩阵 + 5 类场景剧本 + 输出模板 + 反模式陷阱的完整大 skill*
 *可移植：在任何 Claude Code 环境都能跑，有 PAI 工具时加速，没有时用 fallback 方案*
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->
