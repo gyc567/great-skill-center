@@ -1,0 +1,16 @@
+{
+  "name": "code-film-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Skills 创作小店 · 代码电影工作室：60 种纯代码渲染的电影级视觉风格，共享一套渲染工具链。",
+  "author": "ERIC <gyc567@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "^1.63.0",
+    "three": "^0.170.0"
+  }
+}
