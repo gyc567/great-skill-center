@@ -1,11 +1,6 @@
----
-name: xhs-title-formula
+---name: xhs-title-formula
 brand: AI Skills 创作小店
-description: "小红书爆款标题公式：75个经验证标题模板，12类心理触发器智能匹配。输入话题+行业，自动生成定制标题并标注来源公式编号。买断¥0.99。"
-  小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。
-  触发方式：/xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」
-  Xiaohongshu title formula tool. Pick the right formula from 75 proven templates.
-  Trigger: /xhs-title, "xiaohongshu title", "RED title formula"
+description: "\"小红书爆款标题公式：75个经验证标题模板，12类心理触发器智能匹配。输入话题+行业，自动生成定制标题并标注来源公式编号。买断¥0.99。\" 小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。 触发方式：/xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」 Xiaohongshu title formula tool. Pick the right formula from 75 proven templates. Trigger: /xhs-title, \"xiaohongshu title\", \"RED title formula\""
 allowedRuntimeModes: [wander, redclaw, chatroom]
 hookMode: inline
 autoActivate: false
@@ -15,6 +10,10 @@ contextNote: 这是内置小红书起标题技能。它按 75 个公式匹配标
 promptPrefix: 当前已加载 xhs-title。起小红书标题时必须先判断话题和行业，再从公式库选择 5-8 个匹配公式；每个标题都必须标注公式编号、公式模板、原始爆款例子和一句话理由。
 promptSuffix: 输出保持中文、简洁、直接。小红书标题必须控制在 20 字以内；如果话题或行业缺失，只问缺失的必要信息，不要先自由发挥。
 maxPromptChars: 36000
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: "https://twitter.com/EricBlock2100"
+author_blog: "https://topdigg.com"
 ---
 
 # xhs-title：小红书标题公式工具
@@ -744,3 +743,25 @@ maxPromptChars: 36000
 - 谈判：至关紧要的头 1 分钟 - 如何谈判
 - 面试：至关紧要的头 3 分钟 - 如何面试
 - 约会：至关紧要的头 5 分钟 - 如何给人留下好印象
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

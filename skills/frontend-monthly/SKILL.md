@@ -3,6 +3,11 @@ name: frontend-dev-suite
 brand: AI Skills 创作小店
 description: "¥9.9/月订阅制 · 前端开发全栈工具箱。HTML幻灯片、CSS魔法、界面设计，持续更新模板和组件库，适合前端工程师和设计师。"
 priceConfigJson: {"billingCycleType": "monthly", "billingCycleValue": 1, "amount": 990, "currency": "CNY", "payType": "PREPAY"}
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 前端开发助手订阅套件
@@ -31,3 +36,25 @@ priceConfigJson: {"billingCycleType": "monthly", "billingCycleValue": 1, "amount
 - 月费¥9.9，每月自动续费
 - 幻灯片模板每月更新
 - 取消后当月权益保留至到期日
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

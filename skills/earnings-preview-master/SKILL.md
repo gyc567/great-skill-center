@@ -17,7 +17,11 @@ description: >
   or any request to understand expectations ahead of a company's earnings date.
   Always use this skill when the user mentions a ticker in context of upcoming earnings,
   even if they don't say "preview" explicitly.
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Earnings Preview Skill
@@ -169,3 +173,25 @@ Present the preview as a clean, structured briefing:
 - `references/api_reference.md` — Detailed yfinance API reference for earnings and estimate methods
 
 Read the reference file when you need exact method signatures or edge case handling.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

@@ -160,3 +160,25 @@ v2는 v1.9의 `ip-dossier.md`, `ip-contracts/`, 일곱 개 계약 기계 필드�
 [변경 기록](CHANGELOG.md) · [사양](SPEC.md) · [문제 해결](TROUBLESHOOTING.md) · [기여](CONTRIBUTING.md) · [가상 대화](docs/示例对话.md) · [시각 자료 출처](assets/visual-provenance.md)
 
 개인 기록, 고객 데이터, 자격 증명을 issue, PR, fixture에 넣지 마세요.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

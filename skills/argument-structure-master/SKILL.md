@@ -66,7 +66,11 @@ chains_well_with:
   - "worked-example-fading-designer"
 teacher_time: "3 minutes"
 tags: ["argument", "writing", "Toulmin", "PEEL", "scaffold", "critical-thinking"]
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Argument Structure Scaffold Generator
@@ -288,3 +292,25 @@ Sentence starters:
 2. **Scaffolds can become crutches.** If students always write with sentence starters and labelled sections, they may struggle to write without them. The scaffold should be progressively faded — used explicitly for early attempts, then gradually removed as students internalise the structure. Chain with Worked Example Fading Designer to plan the scaffold reduction.
 
 3. **Argument conventions vary across disciplines more than the scaffold can fully capture.** A history essay, a science report, and a philosophical argument have fundamentally different evidence standards, reasoning patterns, and rhetorical conventions. This skill generates discipline-appropriate scaffolds, but teachers should review the output against their specific discipline's expectations and modify where needed.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

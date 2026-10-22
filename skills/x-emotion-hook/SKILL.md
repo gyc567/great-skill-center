@@ -1,6 +1,11 @@
 ---
 name: x-emotion-hook
 description: X(Twitter) 情绪钩子推文方法论。以情绪为流量引擎的推文创作与拆解规则，源自 @dontbesilent 实战方法论。用于：(1) 撰写/改写 X 推文时制造情绪钩子（嫉妒、震惊、不服、好奇）以激发评论区互动；(2) 拆解爆款推文时识别其情绪触发机制；(3) 每日拆解日报等自动化任务中，按情绪钩子规则产出拆解文案并引导评论区。当用户要求"让人产生情绪""引发评论""获取流量""按 dontbesilent 方法发推""评论区分发"时触发。
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # X 情绪钩子推文方法论
@@ -58,3 +63,25 @@ description: X(Twitter) 情绪钩子推文方法论。以情绪为流量引擎�
 
 - 不造谣、不虚构数据、不人身攻击；"招恨"靠观点和反差，不靠造假。
 - 情绪钩子 ≠ 标题党空转：内容必须有真实信息增量，钩子负责让人点开，正文负责让人留下。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

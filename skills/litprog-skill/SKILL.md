@@ -1,3 +1,26 @@
+---
+name: litprog-skill
+description: >-
+  Literate Programming — 把代码库转换成 literate program，一份给人读的文档，
+  同时能生成原始源码。输出 WEAVE（经 Pandoc 生成 PDF，含散文、图表、公式与语法高亮代码）
+  与 CODE（可编译源码）。适用于技术文档生成、论文代码附录、可执行教程与代码库文档化改造。
+brand: AI Skills 创作小店
+price: 990
+tags:
+  - literate programming
+  - 技术文档
+  - Pandoc
+  - 代码文档化
+specs:
+  - SPEC-DEFAULT
+  - PLAN-DEFAULT
+  - SKU-DEFAULT
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+---
+
 # Literate Programming
 
 Transform a codebase into a literate program: a document written for human comprehension that also generates the original source code.
@@ -329,3 +352,25 @@ After setup, tell the user:
 > - **To regenerate the PDF**: Run `/literate-programming` again. Since the `.lit.md` already exists, it will just weave and tangle without recreating the document.
 >
 > The hook does NOT regenerate the PDF on every edit (too slow). PDF generation only happens when you explicitly run `/literate-programming`.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

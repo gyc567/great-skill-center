@@ -2,7 +2,11 @@
 name: content-publish-precheck
 brand: AI Skills 创作小店
 description: 国内自媒体发布前风险自审与保意修复：审口播稿、文章、图文笔记、字幕、封面文字能不能发抖音/小红书/微信视频号，给出具体位置、依据和可直接替换的改稿；被限流/删除/处罚后帮你复盘归因；你的行业敏感词、误报白名单和踩坑案例会沉淀成个人规则库，越用越准。Use when 用户说"能不能发""审一下稿子""查违禁词/敏感词""会不会限流/被限流了""帮我改成能发的版本""发布前检查""被平台处罚/删除了""帮我盯着这个词""导入违禁词表"。Not for 海外平台(X/YouTube)内容审核、起号涨粉策略、写稿创作本身。
----
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Publish Precheck｜发布前审
@@ -166,3 +170,25 @@ python3 scripts/scan.py --file <稿件> [--commercial] [--industry medical,finan
 | `references/repair.md` | 修复改稿时 |
 | `references/diagnose.md` | 用户被处罚/限流要复盘时 |
 | `ROADMAP.md`（仓库根） | 用户问"什么时候支持快手/直播/更多行业"时 |
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

@@ -5,6 +5,11 @@ description: >
   "安装这个 skill"、要求把某个开源仓库变成技能时使用。流程：拉取完整文件清单 →
   静态安全审计（P0/P1/P2 定级）→ curl 直下安装到技能目录 → 字节级完整性校验 →
   若是 fork/mirror 则与上游 diff 比对 → 输出审计报告。
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 从 GitHub 审计并安装 Skill
@@ -114,3 +119,25 @@ diff "$DEST/SKILL.md" /tmp/upstream.md | head -50
 - 沙箱 `bash` 里 `grep -E "a|b"` 或 `\|` 交替匹配有时返回空 → 改用 Grep 工具。
 - 前端工作流（如 OpenClaw/Claude Code 技能）与本流程通用，SKILL.md + YAML frontmatter 即可被 WorkBuddy 识别。
 - 安装后提醒用户：新技能可能需要重载会话才会被触发。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

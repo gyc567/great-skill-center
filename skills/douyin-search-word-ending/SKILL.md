@@ -1,9 +1,14 @@
 ---
 name: douyin-search-word-ending
-description: "抖音短视频结尾「高频搜索词截图法」：在视频结尾定格画面中添加行业热搜词（亮灰、约45%不透明度文本），让平台把视频与近期用户高频搜索词关联，提升搜索流量与推荐权重。适用于短视频运营、实体店引流、个人IP、自媒体起号场景。Use when 用户说"结尾加截图""视频结尾放热搜词""搜索词截图法""怎么涨搜索流量""抖音关键词覆盖""剪辑结尾定格加文字""给视频埋词"。核心流程：结尾定格 0.1 秒 → 亮灰 Bold 文本叠加 40-100 个行业热搜词 → 像素/OCR 验证 → 发布后第3/7天看搜索流量占比。支持剪映手工版与 PIL+FFmpeg 自动化版两条路径。"
+description: "抖音短视频结尾「高频搜索词截图法」：在视频结尾定格画面中添加行业热搜词（亮灰、约45%不透明度文本），让平台把视频与近期用户高频搜索词关联，提升搜索流量与推荐权重。适用于短视频运营、实体店引流、个人IP、自媒体起号场景。Use when 用户说\"结尾加截图\"\"视频结尾放热搜词\"\"搜索词截图法\"\"怎么涨搜索流量\"\"抖音关键词覆盖\"\"剪辑结尾定格加文字\"\"给视频埋词\"。核心流程：结尾定格 0.1 秒 → 亮灰 Bold 文本叠加 40-100 个行业热搜词 → 像素/OCR 验证 → 发布后第3/7天看搜索流量占比。支持剪映手工版与 PIL+FFmpeg 自动化版两条路径。"
 version: 1.1.0
 license: MIT
 brand: Doubao Work
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # 抖音结尾高频搜索词截图法
@@ -125,3 +130,25 @@ brand: Doubao Work
 4. 按参数表执行：0.1 秒、亮灰 205、45% 不透明度、Bold ≥24px；
 5. 发布前做像素 + OCR 验证；
 6. 说明发布后第 3/7 天数据观察点。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

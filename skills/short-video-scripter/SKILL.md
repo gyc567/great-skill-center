@@ -12,6 +12,11 @@ homepage: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
 when_to_use: "Use when a short vertical video needs a shootable script: turning an idea into a timestamped beat sheet (0-2s hook / 2-5s confirmation / 5-15s payoff / loop-or-CTA), fixing early-seconds drop-off, adapting one concept across TikTok / Reels / Shorts / 抖音 / 视频号 with per-platform 9:16 params, or adding the AI-content disclosure line to a realistic synthetic-media video. Spec-only — no rendering, TTS, or upload automation. Creator video briefs go to brief-generator; long-form video SEO to content-writer."
 argument-hint: "<video idea / draft script> [platforms] [goal: follow|save|click]"
 metadata: {"author": "aaron-he-zhu", "version": "20.1.0", "discipline": "social", "phase": "craft", "geo-relevance": "low", "hermes": {"tags": ["marketing", "social", "craft"], "category": "social"}, "openclaw": {"emoji": "📣", "homepage": "https://github.com/aaron-he-zhu/aaron-marketing-skills"}}
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Short Video Scripter
@@ -103,3 +108,25 @@ After delivering the package, ask: "Save these results for future sessions?" On 
 - **If the concept should also ship as non-video posts**: [social-creative-builder](../social-creative-builder/SKILL.md) — build the platform-native text/image packages from the same idea.
 
 **Termination**: inherits the global rules in [skill-contract.md §Termination rules](../../../references/skill-contract.md) — visited-set check (skip any target already run this chain), `max-depth: 3`, and an ambiguity stop (present the options instead of auto-following). Stop when the package is delivered and the disclosure and claims passes are recorded.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

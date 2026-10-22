@@ -1,8 +1,27 @@
 ---
-name: shortfilm-prompt
-description: Generate cinematic AI shortfilm prompts (works with Seedance 2.0, Xiaoyunque, Sora, Kling, Jimeng, Veo) using the 5-stage structure from Mx-Shell's Zombie Scavenger. Trigger when the user wants transformation sequences, multi-shot narrative shorts, weapon-charge/combat segments, emotional family/pet/farewell narratives (催泪/亲情/萌宠/离别), or any cinematic video prompt.
-license: MIT
-source: https://github.com/jnMetaCode/ai-shortfilm-prompts
+name: ai-shortfilm-prompt
+description: >-
+  AI短片提示词大师 — 用 5 阶段结构生成电影级 AI 短片提示词，适配 Seedance 2.0、小云雀、Sora、可灵、即梦、Veo。内置 25 个中文/英文双语场景模板：15秒蜕变、动物vlog、动漫转真人、氛围预制件、运镜库、类型片摄影 SOP、汽车广告、黏土动画、赛博朋克城市、舞蹈、无人机FPV、美食ASMR、MV、纪实恐怖、多镜头叙事、电影预告片、微短剧、自然延时、宠物一生、产品广告、旅行vlog、科幻太空、体育慢镜、家庭告别、产品商业片，外加负面提示词库与项目规划器。
+brand: AI Skills 创作小店
+price: 1990
+tags:
+  - AI短片
+  - 视频提示词
+  - Seedance
+  - Sora
+  - 可灵
+  - 即梦
+  - Veo
+  - 分镜
+specs:
+  - SPEC-DEFAULT
+  - PLAN-DEFAULT
+  - SKU-DEFAULT
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # shortfilm-prompt — Cinematic AI Video Prompt Generator
@@ -411,3 +430,25 @@ the user can scan it at a glance.
 
 If the user gives feedback to modify a section, **rewrite only that
 section** — don't resend the whole thing.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

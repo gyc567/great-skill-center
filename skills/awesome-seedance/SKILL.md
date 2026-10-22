@@ -3,6 +3,11 @@ name: awesome-seedance
 description: "Seedance 2.0 提示词与玩法库 — 收录 40+ 条高保真、可直接复制的 Seedance 2.0 视频提示词，按 7 大题材分类：电影级风格（好莱坞赛车 / 维伦纽瓦沙漠史诗 / 王家卫雨夜）、广告与品牌、社媒爆款梗、UGC 纪实、动漫动画、短剧网剧（含中式竖屏短剧 / 豪门恩怨）、视觉特效实验。另含 9 大商用玩法中文案例。触发词：Seedance、即梦、豆包视频、Seedance 2.0 提示词、seedance prompt。"
 license: MIT
 source: https://github.com/ZeroLu/awesome-seedance
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # Awesome Seedance 2.0 提示词库
@@ -53,3 +58,25 @@ source: https://github.com/ZeroLu/awesome-seedance
 
 - 本库为第三方社区合集，原作者署名与来源链接保留在文件内（`*Source: ...*`）；部分条目含赞助商链接，仅为原仓库内容，与本技能功能无关。
 - 提示词版权归原作者，采用 MIT 许可分发。
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->

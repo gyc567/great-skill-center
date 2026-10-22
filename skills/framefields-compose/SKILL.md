@@ -13,6 +13,11 @@ specs:
   - SPEC-DEFAULT
   - PLAN-DEFAULT
   - SKU-DEFAULT
+author: ERIC
+author_email: gyc567@gmail.com
+author_twitter: https://twitter.com/EricBlock2100
+author_blog: https://topdigg.com
+
 ---
 
 # framefields-compose
@@ -522,3 +527,25 @@ Layer.vfx({ effectType: "Aurora", width: W, height: H, colorStart: "#2bff88", co
 8. **Premultiplied Alpha:** Alpha shaders operate with premultiplied alpha. Never use `"src-alpha"` factor in custom blends.
 9. **Lint before rendering:** `comp.lint()` lists colors/gradients that would draw transparent, low-contrast text, off-canvas layers, shadow settings that do nothing and `roughness`/`metallic` without an environment. `renderVideo({ qa: true })` includes these findings.
 10. **Lottie vs. Image Layers:** Use `Layer.lottie("file.json" | "file.lottie", { width, height, fit })` for Lottie vector animations. Never pass `.json` or `.lottie` to `Layer.image()`, which only decodes raster formats and throws/warns if given a vector animation.
+
+<!-- ERIC-AUTHOR-INFO:START -->
+---
+
+## 📬 作者信息
+
+**ERIC** — AI技术专家，专注于人工智能和自动化工具的研究与应用
+
+| 渠道 | 链接 |
+|------|------|
+| 📧 邮箱 | gyc567@gmail.com |
+| 🐦 Twitter | [@EricBlock2100](https://twitter.com/EricBlock2100) |
+| 💬 微信 | 360369487 |
+| ✈️ Telegram | [@fatoshi_block](https://t.me/fatoshi_block) |
+| 📢 Telegram 频道 | [@cryptochanneleric](https://t.me/cryptochanneleric) |
+| 🔐 加密情报 TG 群 | [@btcgogopen](https://t.me/btcgogopen) |
+| ▶️ YouTube | [@0XBitFinance](https://www.youtube.com/@0XBitFinance) |
+| 🌐 个人技术博客 | [topdigg.com](https://topdigg.com) |
+
+> 本 Skill 由 ERIC 免费提供。想深入交流或获取更多同类 Skill，欢迎通过上表任一渠道联系。
+
+<!-- ERIC-AUTHOR-INFO:END -->
