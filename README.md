@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **107 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **112 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-107-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-112-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -48,7 +48,7 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 
 ## 六大分类
 
-### 🎬 视频与电影（27）
+### 🎬 视频与电影（28）
 
 电影级视觉语言、AI 视频提示词、成片合成、动效引擎。
 
@@ -64,8 +64,11 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 | `ffmpeg` / `gsap-plugins` / `beautiful-mermaid` / `d3-viz` | 视频处理 / GSAP 特效 / 图表渲染 / 交互可视化 | ¥9.9~19.9 |
 | `action-scene-director` / `cinematic-asset-designer` / `travel-film-director` | 动作打戏 / 概念美术 / 文旅宣传片 | ¥14.9 |
 | `miora-video-studio-cn` / `short-video-scripter` / `douyin-video-publish-sop` | 视频工作台 / 短视频脚本 / 抖音发布 SOP | — |
-
-### 📈 营销与增长（31）
+| `agentcut-video-studio` | AI 视频剪辑工作室 — 60+ 动效组件 + 8 套风格 + Remotion 渲染 | ¥39.9 |
+| `code-film-studio` | 代码电影工作室 — Node 驱动的电影级视觉引擎 | ¥39.9 |
+| `remotion-video-master` | Remotion 视频编程大师 — 代码化视频 + 教程场景驱动 | ¥29.9 |
+| `animation-vocabulary` / `find-animation-opportunities` / `improve-animations` / `review-animations` | 动效词汇表 / 动效机会挖掘 / 动效改进 / 动效评审 | ¥9.9 |
+| `awesome-seedance` | Seedance 视频提示词库 | — |### 📈 营销与增长（34）
 
 GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆款公式。
 
@@ -81,8 +84,9 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `wechat-article` / `wechat-draft-push` / `wechat-topic-hunter` | 公众号爆文 / 草稿推送 / 选题猎手 | ¥9.9 |
 | `douyin-script-master` / `douyin-search-word-ending` | 抖音脚本 / 结尾热搜词截图法 | — |
 | `launch-skill` | 产品上线全流程启动 | ¥39.9 |
-
-### ✍️ 内容创作（12）
+| `link-ops-master` | 短链与归因运营大师 — 命名规范 / UTM / A-B / 转化回传 | ¥29.9 |
+| `x-account-analyzer` / `x-algorithm-expert` / `x-research-master` / `tweet-composer` | X 账号诊断 / 算法机制 / 深度研究 / 推文创作 | ¥9.9 |
+| `timezone-information-arbitrage` | 时区信息套利 — 跨时区信息差机会挖掘 | — |### ✍️ 内容创作（15）
 
 去 AI 味、选题、跨平台改写、信息图、复盘。
 
@@ -93,8 +97,8 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `infographic-master` / `social-review-master` / `social-monthly` | 信息图设计 / 社媒复盘 | ¥9.9 |
 | `article-replatformer` / `argument-structure-master` / `x-original-content-creator` | 跨平台改写 / 论证结构 / 原创内容 | — |
 | `youtube-monthly` / `post-writer-pro` / `thread-writer-pro` | 月度总结 / 长文 / 长帖写作 | — |
-
-### 🛠️ 开发与工程（10）
+| `content-strategy-pro` | 内容策略大师 — 选题到分发的完整策略 | ¥9.9 |
+| `meeting-secretary` | 会议纪要大师 — 录音转结构化纪要 + 待办 | ¥9.9 |### 🛠️ 开发与工程（12）
 
 代码审查、证明式校验、前端月报、PPT、技术文档。
 
@@ -104,8 +108,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `frontend-monthly` / `frontend-slides` / `guizang-ppt-skill` / `slides-master` | 前端月报 / 幻灯片 | — |
 | `prototype` / `reading-comprehension-master` / `distribb-skill` | 原型 / 阅读理解 / 分发 | — |
 | `github-skill-audit-install` / `security-audit-master` | Skill 审计安装 / 安全审计 | — |
-
-### 🎨 设计与可视化（8）
+| `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |### 🎨 设计与可视化（11）
 
 等距插图、SVG、图表、UI 选型、幻灯片。
 
@@ -115,8 +118,8 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `gzh-design` / `slides-master` / `guizang-ppt-skill` | 公众号排版 / 幻灯片 | ¥9.9 / — |
 | `apple-design` / `emil-design-eng` / `pick-ui-library` | 苹果风格设计 / 设计工程 / UI 库选型 | — |
 | `tailwind-design-system` / `midjourney-quick-ref` | Tailwind 设计系统 / MJ 速查 | ¥14.9 / — |
-
-### 💼 个人 IP 与商业（4）
+| `elevenlabs` | ElevenLabs 语音合成指南 | — |
+| `flux-best-practices` | FLUX 图像生成最佳实践 | — |### 💼 个人 IP 与商业（14）
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
@@ -125,7 +128,12 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `weekly-report-template` | 周报模板 | — |
 | `sales-brain` / `sales-ops` / `remote-dispatch` | 销售脑 / 销售运营 / 远程任务调度 | ¥9.9 |
 
-### 🧰 集合包（9 个目录）
+| `service-ops-master` | 极致服务运营大师 — 服务信条 / 26 项权益 / 裂变 SOP / 完整话术库 | ¥39.9 |
+| `company-valuation-master` | 企业估值大师 — 投融资估值建模 | ¥29.9 |
+| `earnings-preview-master` | 财报预期大师 — 业绩前瞻与预期差分析 | ¥19.9 |
+| `life-decision-master` | 人生决策大师 — 结构化决策框架 | ¥9.9 |
+| `options-payoff-visualizer` | 期权收益可视化 — 盈亏结构直观呈现 | — |
+| `stock-monthly` / `stock-correlation-analyst` / `stock-strategy-collection` | 月度复盘 / 相关性分析 / 策略合集 | ¥9.9 |### 🧰 集合包（9 个目录）
 
 按场景打包的组合目录，内含多个完整 Skill：
 
