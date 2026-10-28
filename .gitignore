@@ -8,3 +8,5 @@ build/
 *.egg
 .coverage
 coverage_html/
+.metrics/
+target/
