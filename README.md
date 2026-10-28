@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **114 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **115 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-114-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-115-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -98,7 +98,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `article-replatformer` / `argument-structure-master` / `x-original-content-creator` | 跨平台改写 / 论证结构 / 原创内容 | — |
 | `youtube-monthly` / `post-writer-pro` / `thread-writer-pro` | 月度总结 / 长文 / 长帖写作 | — |
 | `content-strategy-pro` | 内容策略大师 — 选题到分发的完整策略 | ¥9.9 |
-| `meeting-secretary` | 会议纪要大师 — 录音转结构化纪要 + 待办 | ¥9.9 |### 🛠️ 开发与工程（14）
+| `meeting-secretary` | 会议纪要大师 — 录音转结构化纪要 + 待办 | ¥9.9 |### 🛠️ 开发与工程（16）
 
 代码审查、证明式校验、前端月报、PPT、技术文档。
 
@@ -111,6 +111,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |### 🎨 设计与可视化（11）
 | `ub-quality-gates` | 极致代码质量门大师 — Uncle Bob 纪律 + CRAP/重复/变异测试三道自动门禁 | ¥29.9 |
 | `ub-mode` | Uncle Bob 编程纪律原版 — 先能跑、再正确、后守纪律 | ¥9.9 |
+| `free-model-router` | 免费模型路由大师 — OpenRouter 免费模型发现 + fail-closed 防扣费 + Pi 集成 | ¥19.9 |
 
 等距插图、SVG、图表、UI 选型、幻灯片。
 
