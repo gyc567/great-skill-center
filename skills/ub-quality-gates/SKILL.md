@@ -177,6 +177,48 @@ cd /path/to/mutator && ./mutator --since-last-run
 
 ---
 
+## 🔎 规则溯源（别把别人的规则说成 Uncle Bob 原创）
+
+ub-mode 的纪律**不是** Robert C. Martin 原创。它自述「loosely based on portions of
+@poteto's rules (poteto-mode / pstack), **reduced**」。
+
+| 来源 | 许可 | 作者 | 角色 |
+|------|------|------|------|
+| **pstack**（`cursor/plugins` → `pstack/`） | **MIT** | **poteto = Lauren Tan**（Cursor React Compiler 团队） | **规则原始出处** |
+| **ub-mode** | ⚠️ **无 LICENSE** | Robert C. Martin | 浓缩版 + 工具绑定 |
+| **crapper / dryer / mutator** | **0BSD** | Robert C. Martin | Uncle Bob 原创 |
+
+**逐条比对结论（24 条原则）**：
+
+- ✅ **15 条**在 pstack 有同名 principle skill（Laziness Protocol、Foundational Thinking、
+  Model the Domain、Boundary Discipline、Fix Root Causes、Guard the Context Window…）
+- 🔁 **3 条**措辞不同但同源（TDD ↔ Prove It Works、Refactoring ↔ playbook、Worktree Cleanup ↔ playbook）
+- ⭐ **3 条是 Uncle Bob 原创，pstack 完全没有**：**Crapper / Dryer / Mutator**
+- ➕ **8 条 pstack 有但 ub-mode 未收录**（见下）
+
+**8 条 pstack 独有原则（ub-mode 遗漏，本 Skill 补上）**：
+
+| 原则 | 要点 |
+|---|---|
+| **Minimize Reader Load** | 认知负荷（层数 + 状态）才是真复杂度，LOC/CC 只是代理 |
+| **Prove It Works** | 验证真实产物，不信代理指标、自我报告、「能编译」 |
+| **Explain the Number** | 报数字前先答「为什么不是双倍」，并排除它测的是别的东西 |
+| **Never Block on the Human** | 可逆的工作直接做再汇报；不可逆的才要确认 |
+| **Encode Lessons in Structure** | 说第二遍的建议固化成 lint / 检查 / 脚本 |
+| **Experience First** | 实现便利与用户体验冲突时，选用户体验 |
+| **Exhaust the Design Space** | 没有先例时做 2–3 个竞争原型再选 |
+| **Migrate Callers Then Delete Legacy APIs** | 迁移与删除同一波完成，不留兼容层 |
+
+**正确署名**：
+
+> 纪律框架融合了 **Robert C. Martin** 的 ub-mode 与 **poteto（Lauren Tan）** 的 pstack 原则集，
+> 并绑定 Uncle Bob 的三个 0BSD 质量门工具。
+
+❌ 不要写「Uncle Bob 的 24 条原创原则」——其中 15 条来自 pstack。
+❌ 不要写「Uncle Bob 提出 CRAP 指标」——CRAP 源自 Microsoft Research 论文，工具实现才是他的。
+
+📄 完整比对表见 `references/provenance.md`。
+
 ## 📁 产出文件
 
 | 文件 | 内容 |
@@ -254,10 +296,36 @@ cd /path/to/mutator && ./mutator --since-last-run
 
 ## 📄 许可与来源
 
-- **纪律理念**：`unclebob/ub-mode`（GitHub，**原仓库无 LICENSE 文件**）
-- **工具**：`unclebob/crapper` · `unclebob/dryer` · `unclebob/mutator` · `unclebob/uml-viewer`
-  —— 全部 **BSD Zero Clause License (0BSD)**，Copyright (C) 2026 Robert C. Martin
-- **上游衍生**：crapper 承 crap4clj / crap4java / crap4go；dryer 承 dry4clj；
-  mutator 承 clj-mutate / mutate4go / mutate4java —— 均出自同一作者
-- **理念参考**：`@poteto` 的 poteto-mode / pstack 规则（**原仓库已不可访问**，ub-mode 自述"loosely based on portions of"）
-- 本 Skill 为**方法论与工具链封装**，遵循 0BSD 的宽松条款重新分发
+| 组件 | 许可 | 能否原文搬运 |
+|---|---|---|
+| pstack 原则（`cursor/plugins` → `pstack/`） | **MIT**（`plugin.json` 明示） | ✅ 可以，保留版权声明 |
+| `crapper` / `dryer` / `mutator` | **0BSD** | ✅ 可以 |
+| **ub-mode 本体** | ⚠️ **无 LICENSE 文件** | ❌ **不应直接原文搬运** |
+
+- 规则原始出处：**poteto = Lauren Tan**，`github.com/cursor/plugins` → `pstack/`（v0.15.36，MIT）。
+  ⚠️ 独立仓库 `github.com/poteto/pstack` 与 `poteto/poteto-mode` 均已 **404**。
+- 纪律框架：**Robert C. Martin** 的 `github.com/unclebob/ub-mode`（⚠️ 无 LICENSE，
+  其自述为 pstack 的浓缩版 + 三个工具绑定）。
+- 本 Skill **不逐字复制** ub-mode，而是重新组织为「纪律 + 可验证的工具流程」，
+  并补上 pstack 独有的 8 条原则与完整的溯源记录。
+
+---
+
+## 📞 定制化开发
+
+如需**定制化开发**，可直接联系 ERIC：
+
+| 项 | 联系方式 |
+|----|---------|
+| **作者定位** | ERIC AI技术专家，专注于人工智能和自动化工具的研究与应用 |
+| 邮箱 | `gyc567@gmail.com` |
+| Twitter | `@EricBlock2100` |
+| 微信 | `360369487` |
+| Telegram | https://t.me/fatoshi_block |
+| Telegram 频道 | https://t.me/cryptochanneleric |
+| 加密情报 TG 群 | https://t.me/btcgogopen |
+| YouTube 频道 | `@0XBitFinance` |
+| 个人技术博客 | `topdigg.com` |
+
+> **品牌**：AI Skills 创作小店
+> 如需定制化开发，可直接联系 ERIC。
