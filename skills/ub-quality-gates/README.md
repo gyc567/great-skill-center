@@ -144,6 +144,33 @@ CRAP = CC² × (1 − coverage)³ + CC
 
 ---
 
+## 🔎 规则溯源：不是 Uncle Bob 一人的原创
+
+ub-mode 的 README 自己写着：**"loosely based on portions of @poteto's rules
+(poteto-mode / pstack), reduced"**。
+
+我们把这条链查实了：
+
+| 来源 | 许可 | 作者 | 角色 |
+|------|------|------|------|
+| **pstack**（`cursor/plugins` → `pstack/`） | **MIT** | **poteto = Lauren Tan**（Cursor React Compiler 团队） | **规则原始出处** |
+| **ub-mode** | ⚠️ 无 LICENSE | Robert C. Martin | 浓缩版 + 工具绑定 |
+| **crapper / dryer / mutator** | **0BSD** | Robert C. Martin | Uncle Bob 原创 |
+
+**24 条原则逐条比对**：
+
+- ✅ **15 条** pstack 有同名 principle skill
+- 🔁 **3 条**措辞不同但同源（TDD ↔ Prove It Works 等）
+- ⭐ **3 条 Uncle Bob 原创，pstack 完全没有**：**Crapper / Dryer / Mutator**
+- ➕ **8 条 pstack 有但 ub-mode 漏了** → 本 Skill **补上**
+
+> ⚠️ `github.com/poteto/pstack` 与 `poteto/poteto-mode` 均已 **404**；
+> pstack 源码作为官方插件收录在 `github.com/cursor/plugins` 的 `pstack/` 目录（v0.15.36，MIT）。
+
+📄 完整比对表见 [`references/provenance.md`](references/provenance.md)。
+
+---
+
 ## 📦 包含内容
 
 ```

@@ -4,6 +4,100 @@
 
 ---
 
+## A0. 覆盖率静默变 0%（最容易误判的一个）
+
+### 症状
+
+```
+coverage is missing in <项目>. Python coverage will score 0%.
+```
+
+或者更隐蔽的：报告里所有 Python 函数的 `Cov%` 都是 `0.0%`，
+但你明明有测试。
+
+### 根因
+
+`crapper` / `mutator` 用**项目内**的 `.venv/bin/python` 跑测试；
+项目没有 `.venv` 时回落到 `PATH` 里的 `python3`。
+
+如果 `python3` 命中了 **Hermes 的 venv**（`/root/hermes-agent/venv/bin/python3`），
+它 **没有 pip** → 覆盖率采集静默失败 → CRAP 里的覆盖率惩罚项变成 `1`，
+CRAP 分数被**严重高估**。
+
+如果 `python3` 是系统的 `/usr/bin/python3`，
+**PEP 668** 会拦住 `pip install coverage`：
+
+```
+error: externally-managed-environment
+× This environment is externally managed
+```
+
+### 解法（已内置在 install-gates.sh）
+
+安装脚本会建一个共享环境 `~/.ub-tools/pyenv`（含 coverage + pytest），
+并把它的 `bin` **前置到 `PATH`**：
+
+```bash
+export PATH="$TOOLS_DIR/pyenv/bin:$PATH"
+```
+
+### ❌ 不要用软链 `.venv/bin/python`
+
+```bash
+ln -sf ~/.ub-tools/pyenv/bin/python /your/project/.venv/bin/python   # ✗ 错
+```
+
+**软链会让 Python 找不到同目录的 `pyvenv.cfg`**，
+`sys.prefix` 退回 base python（实测 `sys.prefix` 变成 `/usr`），
+venv 的 site-packages 随之丢失 —— 结果是 **coverage 反而不可用**。
+
+> 实测踩过这个坑：软链后 `/your/project/.venv/bin/python -c "import coverage"`
+> 依然报 `ModuleNotFoundError: No module named 'coverage'`。
+
+### ✅ 正确：PATH 前置
+
+```bash
+export PATH="$HOME/.ub-tools/pyenv/bin:$PATH"
+python3 -c "import coverage; print(coverage.__version__)"   # 7.17.0
+```
+
+### mutator 还要额外一步
+
+`mutator` 在找不到项目 `.venv` 时会回落到 **它自己 venv 的 python**
+（`sys.executable`）跑测试。所以 pytest / coverage 必须装进 mutator 的 venv：
+
+```bash
+~/.ub-tools/mutator/.venv/bin/pip install pytest coverage
+```
+
+否则会看到：
+
+```
+Baseline failed for src/complex.py: .../mutator/.venv/bin/python -m pytest
+.../mutator/.venv/bin/python: No module named pytest
+```
+
+`install-gates.sh` 已自动处理这一步（输出「✔ mutator 测试依赖已就绪」）。
+
+### 验证是否真的修好
+
+```bash
+cd /your/project
+~/.ub-tools/ub-gates doctor . 2>&1 | head -8
+```
+
+必须看到：
+
+```
+=== 0/3 Python 覆盖率环境 ===
+  使用 Python : .../pyenv/bin/python
+  coverage    : 可用
+```
+
+且 CRAP 报告里的 `Cov%` **不是** 0.0%。
+
+---
+
 ## A. 环境与安装
 
 ### A1. `ImportError: cannot import name 'crapper' from mutator`
