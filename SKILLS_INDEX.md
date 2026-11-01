@@ -113,6 +113,7 @@ All skills are organized under `skills/` by source.
 - `douyin-video-publish-sop` — 抖音卡片大字视频制作+发布端到端 SOP（情绪故事六卡文案→PIL大字卡→灰词埋词→ffmpeg合成→创作者中心发布）
 
 ## 视频制作流水线 (original - 自建)
+- `koubo-video-pipeline` — 口播短视频全流程流水线（选题调研 → 照片驱动人物口播视频 → 片尾截图卡片 → 三平台发布文案 → 探店爆款封面风/海报风封面 → ffmpeg 合成与四件套核验）
 - `product-short-video` — 产品短视频生产线（多创意方向选型 → 主体一致性设定卡 → 分镜脚本 → 关键帧/图生视频 → 后期合成，面向投放 / 带货 / 种草）
 - `cinematic-ad-film` — 电影广告大片生产线（导演视觉语言锚定 → 创意原点+广告语 → 分镜脚本 → 关键帧/图生视频 → 电影级后期调色 / 字幕 / 配乐 / 精确时长，产出 15s 竖屏大片）
 
@@ -130,4 +131,4 @@ All skills are organized under `skills/` by source.
 - `github-skill-audit-install` — 从任意 GitHub 仓库「安全审计 + 安装」Agent Skill 的标准流程（拉取完整清单 → P0/P1/P2 静态审计 → curl 直下安装 → 字节级完整性校验 → 与上游 diff → 输出审计报告）。本仓库中所有第三方技能的引入均走此流程。
 
 ---
-Total: 107 skills
+Total: 108 skills
