@@ -1,6 +1,6 @@
 # AI Skills 创作小店
 
-> **115 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **117 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
 [![Skills](https://img.shields.io/badge/Skills-115-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -48,12 +48,13 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 
 ## 六大分类
 
-### 🎬 视频与电影（28）
+### 🎬 视频与电影（29）
 
 电影级视觉语言、AI 视频提示词、成片合成、动效引擎。
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
+| `charles-video-maker` | Charles 视频制作大师 — 代码逐帧渲染 + 配音流水线 + 事实核查 + 抖音复刻 | ¥39.9 |
 | `cinematic-director-language` | 电影导演视觉语言大师 — 20 方法论模块 + 12 位导演镜头语法 | ¥39.9 |
 | `cinematic-ad-film-master` | 电影广告大片大师 — 把普通产品拍成奢侈品级大片 | ¥29.9 |
 | `ai-shortfilm-prompt` | AI 短片提示词大师 — 25 个中英双语场景模板 | ¥19.9 |
@@ -108,7 +109,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `frontend-monthly` / `frontend-slides` / `guizang-ppt-skill` / `slides-master` | 前端月报 / 幻灯片 | — |
 | `prototype` / `reading-comprehension-master` / `distribb-skill` | 原型 / 阅读理解 / 分发 | — |
 | `github-skill-audit-install` / `security-audit-master` | Skill 审计安装 / 安全审计 | — |
-| `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |### 🎨 设计与可视化（11）
+| `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |### 🎨 设计与可视化（12）
 | `ub-quality-gates` | 极致代码质量门大师 — Uncle Bob 纪律 + CRAP/重复/变异测试三道自动门禁 | ¥29.9 |
 | `ub-mode` | Uncle Bob 编程纪律原版 — 先能跑、再正确、后守纪律 | ¥9.9 |
 | `free-model-router` | 免费模型路由大师 — OpenRouter 免费模型发现 + fail-closed 防扣费 + Pi 集成 | ¥19.9 |
@@ -117,6 +118,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
+| `anatomy` | 等距机器插图 — 用一台会动的真机器讲清概念（MIT，279 测试全通过） | ¥19.9 |
 | `anatomy-business-charts` | 等距技术插图 — 商业场景图表 | — |
 | `gzh-design` / `slides-master` / `guizang-ppt-skill` | 公众号排版 / 幻灯片 | ¥9.9 / — |
 | `apple-design` / `emil-design-eng` / `pick-ui-library` | 苹果风格设计 / 设计工程 / UI 库选型 | — |
