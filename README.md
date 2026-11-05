@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **119 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **120 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-119-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-120-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -124,10 +124,11 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `apple-design` / `emil-design-eng` / `pick-ui-library` | 苹果风格设计 / 设计工程 / UI 库选型 | — |
 | `tailwind-design-system` / `midjourney-quick-ref` | Tailwind 设计系统 / MJ 速查 | ¥14.9 / — |
 | `elevenlabs` | ElevenLabs 语音合成指南 | — |
-| `flux-best-practices` | FLUX 图像生成最佳实践 | — |### 💼 个人 IP 与商业（16）
+| `flux-best-practices` | FLUX 图像生成最佳实践 | — |### 💼 个人 IP 与商业（17）
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
+| `asset-trace` | 执行财产速查 — 律师向财产线索检索，34 线渠道矩阵 + 查全度核对表 + 调查令清单 | ¥29.9 |
 | `industry-profit-pool-research` | 行业利润池研究 — 定位收入/利润集中点 + 外部进入权 7 维过滤 | ¥29.9 |
 | `company-value-chain-review` | 企业价值链复盘 — 这家靠什么活 + 价值如何变成现金 | ¥19.9 |
 | `personal-ip-master` | AI 个人 IP 打造大师 — 人设 / 内容 / 变现全链路 | ¥39.9 |
