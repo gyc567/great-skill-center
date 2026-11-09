@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **121 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **123 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-121-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-123-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -69,7 +69,7 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 | `code-film-studio` | 代码电影工作室 — Node 驱动的电影级视觉引擎 | ¥39.9 |
 | `remotion-video-master` | Remotion 视频编程大师 — 代码化视频 + 教程场景驱动 | ¥29.9 |
 | `animation-vocabulary` / `find-animation-opportunities` / `improve-animations` / `review-animations` | 动效词汇表 / 动效机会挖掘 / 动效改进 / 动效评审 | ¥9.9 |
-| `awesome-seedance` | Seedance 视频提示词库 | — |### 📈 营销与增长（34）
+| `awesome-seedance` | Seedance 视频提示词库 | — |### 📈 营销与增长（35）
 
 GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆款公式。
 
@@ -87,7 +87,8 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `launch-skill` | 产品上线全流程启动 | ¥39.9 |
 | `link-ops-master` | 短链与归因运营大师 — 命名规范 / UTM / A-B / 转化回传 | ¥29.9 |
 | `x-account-analyzer` / `x-algorithm-expert` / `x-research-master` / `tweet-composer` | X 账号诊断 / 算法机制 / 深度研究 / 推文创作 | ¥9.9 |
-| `timezone-information-arbitrage` | 时区信息套利 — 跨时区信息差机会挖掘 | — |### ✍️ 内容创作（16）
+| `timezone-information-arbitrage` | 时区信息套利 — 跨时区信息差机会挖掘 | — |
+| `fabe-sales-script` | FABE 销售法则 — 特点→优势→利益→证据，带机械校验器 | ¥19.9 |### ✍️ 内容创作（16）
 
 去 AI 味、选题、跨平台改写、信息图、复盘。
 
@@ -110,7 +111,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `frontend-monthly` / `frontend-slides` / `guizang-ppt-skill` / `slides-master` | 前端月报 / 幻灯片 | — |
 | `prototype` / `reading-comprehension-master` / `distribb-skill` | 原型 / 阅读理解 / 分发 | — |
 | `github-skill-audit-install` / `security-audit-master` | Skill 审计安装 / 安全审计 | — |
-| `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |### 🎨 设计与可视化（12）
+| `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |### 🎨 设计与可视化（13）
 | `ub-quality-gates` | 极致代码质量门大师 — Uncle Bob 纪律 + CRAP/重复/变异测试三道自动门禁 | ¥29.9 |
 | `ub-mode` | Uncle Bob 编程纪律原版 — 先能跑、再正确、后守纪律 | ¥9.9 |
 | `free-model-router` | 免费模型路由大师 — OpenRouter 免费模型发现 + fail-closed 防扣费 + Pi 集成 | ¥19.9 |
@@ -125,7 +126,8 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `apple-design` / `emil-design-eng` / `pick-ui-library` | 苹果风格设计 / 设计工程 / UI 库选型 | — |
 | `tailwind-design-system` / `midjourney-quick-ref` | Tailwind 设计系统 / MJ 速查 | ¥14.9 / — |
 | `elevenlabs` | ElevenLabs 语音合成指南 | — |
-| `flux-best-practices` | FLUX 图像生成最佳实践 | — |### 💼 个人 IP 与商业（17）
+| `flux-best-practices` | FLUX 图像生成最佳实践 | — |
+| `answer-me-with-html` | 一页 HTML 讲解图 — Markdown 草稿自动渲染成自包含页面 | ¥29.9 |### 💼 个人 IP 与商业（17）
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
