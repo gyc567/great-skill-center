@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **120 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **121 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-120-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-121-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -87,12 +87,13 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `launch-skill` | 产品上线全流程启动 | ¥39.9 |
 | `link-ops-master` | 短链与归因运营大师 — 命名规范 / UTM / A-B / 转化回传 | ¥29.9 |
 | `x-account-analyzer` / `x-algorithm-expert` / `x-research-master` / `tweet-composer` | X 账号诊断 / 算法机制 / 深度研究 / 推文创作 | ¥9.9 |
-| `timezone-information-arbitrage` | 时区信息套利 — 跨时区信息差机会挖掘 | — |### ✍️ 内容创作（15）
+| `timezone-information-arbitrage` | 时区信息套利 — 跨时区信息差机会挖掘 | — |### ✍️ 内容创作（16）
 
 去 AI 味、选题、跨平台改写、信息图、复盘。
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
+| `writing-dna-skill` | 写作蒸馏器 — 6 层写作 DNA 蒸馏 + 8 条去 AI 味实测规则 | ¥29.9 |
 | `ai-humanizer` | AI 痕迹去除师 — 识别并清除 74 种 AI 写作特征 | — |
 | `content-topic-generator` / `content-writing-style` / `content-publish-precheck` | 选题 / 风格底盘 / 发布前检查 | — |
 | `infographic-master` / `social-review-master` / `social-monthly` | 信息图设计 / 社媒复盘 | ¥9.9 |
