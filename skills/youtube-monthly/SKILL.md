@@ -1,5 +1,5 @@
 ---
-name: youtube-content-suite
+name: youtube-monthly
 brand: AI Skills 创作小店
 description: "¥9.9/月订阅制 · 11个YouTube技能持续更新。包含字幕转录、视频搜索、播放列表管理、频道数据分析、内容策划全流程。适合内容创作者、油管UP主、MCN机构。"
 priceConfigJson: {"billingCycleType": "monthly", "billingCycleValue": 1, "amount": 990, "currency": "CNY", "payType": "PREPAY"}

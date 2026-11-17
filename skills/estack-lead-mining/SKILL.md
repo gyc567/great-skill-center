@@ -1,5 +1,5 @@
 ---
-name: Estack-lead-mining
+name: estack-lead-mining
 description: |
   抖音评论客户线索挖掘。给定一个赛道关键词（如"AI创业""股权律师""留学中介"），
   自动：①搜索赛道爆款视频 → ②抓取视频评论区公开评论（含评论者抖音主页 sec_uid 链接）→

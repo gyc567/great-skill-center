@@ -1,5 +1,5 @@
 ---
-name: social-media-suite
+name: social-monthly
 brand: AI Skills 创作小店
 description: "¥9.9/月订阅制 · 中文社媒矩阵全栈工具。帖子撰写、选题策划、平台适配、voice profile构建，适合自媒体博主和品牌运营。"
 priceConfigJson: {"billingCycleType": "monthly", "billingCycleValue": 1, "amount": 990, "currency": "CNY", "payType": "PREPAY"}

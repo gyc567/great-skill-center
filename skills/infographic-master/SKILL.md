@@ -1,5 +1,5 @@
 ---
-name: infographic
+name: infographic-master
 description: >-
   将数据或文字转化为可视化信息图，支持静态AntV和动画GIF两种模式。
 brand: AI Skills 创作小店

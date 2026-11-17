@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **124 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **136 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-124-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-136-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -146,6 +146,21 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `life-decision-master` | 人生决策大师 — 结构化决策框架 | ¥9.9 |
 | `options-payoff-visualizer` | 期权收益可视化 — 盈亏结构直观呈现 | — |
 | `stock-monthly` / `stock-correlation-analyst` / `stock-strategy-collection` | 月度复盘 / 相关性分析 / 策略合集 | ¥9.9 |### 🧰 集合包（9 个目录）
+| `cinecode` | 代码电影引擎 — Quick/Film 双模式，60 套视觉风格，输出 -14 LUFS MP4 | ¥39.9 |
+| `awesome-seedance` | Seedance 视频提示词库 | — |
+| `koubo-video-pipeline` | 口播短视频全流程流水线 | ¥29.9 |
+| `fabe-sales-script` | FABE 销售法则 — 产品特点→销售话术，内置校验器 | ¥19.9 |
+| `estack-lead-mining` | 抖音评论线索挖掘 | — |
+| `answer-me-with-html` | 一页 HTML 讲清复杂问题 — 14 种组件，零依赖 CLI | ¥29.9 |
+| `writing-dna-skill` | 写作蒸馏器 — 6 层写作 DNA + 去 AI 味规则集 | ¥29.9 |
+| `claude-gateway-integration` | Claude Gateway 接入指南 — Anthropic 兼容网关实测分析 | ¥19.9 |
+| `skill-repo-maintenance` | Skill 仓库维护闸门 — 多端同步 + 一致性检查 + 凭据扫描 | ¥19.9 |
+| `anbeime` / `best` / `garden` / `ecommerce` / `youtube-skills` / `chinese-social-pack` / `productivity-pack` | 多 Skill 集合包 — 分别收录 66 / 16 / 5 / 39 / 12 / 4 / 4 个子 Skill | — |
+| `meeting-secretary` | 会议纪要与行动项 | — |
+| `resume-report-maker` | 简历与报告生成 | — |
+| `stock-correlation-analyst` | 股票相关性分析 | — |
+| `stock-monthly` | 股票月度策略 | — |
+| `stock-strategy-collection` | 股票策略合集 | — |
 
 按场景打包的组合目录，内含多个完整 Skill：
 

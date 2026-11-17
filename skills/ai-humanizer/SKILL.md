@@ -1,4 +1,5 @@
----name: ai-humanizer
+---
+name: ai-humanizer
 brand: AI Skills 创作小店
 description: '"AI痕迹去除师：识别并去除文章中的74种AI写作特征。P0严重痕迹（机器腔、模板句）优先清除，支持detect/rewrite/edit三种模式，适用于论文、笔记、自媒体内容。买断¥0.99。" ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this sound less like AI." Supports a detect-only mode, an edit-in-place mode for files, an optional voice profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence pass.'
 version: 1.0.0

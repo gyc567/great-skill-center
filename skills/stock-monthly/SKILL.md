@@ -1,5 +1,5 @@
 ---
-name: stock-analysis-suite
+name: stock-monthly
 brand: AI Skills 创作小店
 description: "¥19.9/月订阅制 · A股量化策略持续更新。包含20种量化策略、趋势分析、缠论技术面、智能选股器，适合散户和波段交易者。"
 priceConfigJson: {"billingCycleType": "monthly", "billingCycleValue": 1, "amount": 1990, "currency": "CNY", "payType": "PREPAY"}

@@ -1,5 +1,5 @@
 ---
-name: frontend-dev-suite
+name: frontend-monthly
 brand: AI Skills 创作小店
 description: "¥9.9/月订阅制 · 前端开发全栈工具箱。HTML幻灯片、CSS魔法、界面设计，持续更新模板和组件库，适合前端工程师和设计师。"
 priceConfigJson: {"billingCycleType": "monthly", "billingCycleValue": 1, "amount": 990, "currency": "CNY", "payType": "PREPAY"}

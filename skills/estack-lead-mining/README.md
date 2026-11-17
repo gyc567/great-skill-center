@@ -50,3 +50,26 @@ Estack-lead-mining/
 ## 输出字段
 
 每条线索：客户昵称 / 抖音主页链接 / 评论原文 / 意向等级 / 需求关键词 / 客户画像 / 推荐公开回复 / 来源视频 / 原视频链接 / 行动建议
+
+
+---
+
+## 📞 定制化开发
+
+如需**定制化开发**（新增视觉风格、批量成片、接入自有 TTS/素材源、私有化部署），可直接联系 ERIC：
+
+| 项 | 联系方式 |
+|----|---------|
+| **作者定位** | ERIC AI技术专家，专注于人工智能和自动化工具的研究与应用 |
+| 邮箱 | `gyc567@gmail.com` |
+| Twitter | `@EricBlock2100` |
+| 微信 | `360369487` |
+| Telegram | https://t.me/fatoshi_block |
+| Telegram 频道 | https://t.me/cryptochanneleric |
+| 加密情报 TG 群 | https://t.me/btcgogopen |
+| YouTube 频道 | `@0XBitFinance` |
+| 个人技术博客 | `topdigg.com` |
+
+> **品牌**：AI Skills 创作小店
+> 本 Skill 基于 [sarpstar/cinecode](https://github.com/sarpstar/cinecode)（MIT License, © 2026 Sarp Yıldız）品牌化改造，
+> 运行时命令、路径、环境变量与上游署名均予保留。

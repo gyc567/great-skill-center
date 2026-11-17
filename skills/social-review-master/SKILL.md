@@ -1,5 +1,5 @@
 ---
-name: skill-social-performance-review
+name: social-review-master
 description: >-
   分析小红书/抖音/B站/微博月度内容表现，输出可执行建议。
 brand: AI Skills 创作小店
