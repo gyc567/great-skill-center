@@ -77,7 +77,28 @@ python3 scripts/sync_skills.py --include-large   # 含大体积 Skill
 - **默认跳过 > 8MB 的 Skill** —— 需要时 `--include-large`
 - **支持 `--install`** —— 上游源登记在 `SKILL_SOURCES` 字典里
 
-### 3. 二者配合
+### 3. `scripts/purge_secret.py` —— 泄露凭据一键处置
+
+```bash
+# 默认只扫描 + 取证，不动任何东西
+python3 scripts/purge_secret.py --pattern 'cztei_xxx' --repo .
+
+# 确认后改写全历史（自动先做 mirror 备份，不存在则拒绝执行）
+python3 scripts/purge_secret.py --pattern 'cztei_xxx' --repo . --rewrite
+
+# 顺便到 GitHub 逐 commit 验证
+python3 scripts/purge_secret.py --pattern 'cztei_xxx' --repo . --verify \
+    --owner gyc567 --repo-name great-skill-center
+```
+
+**处置链路固化**：扫描 → 取证 → mirror 备份 → `git-filter-repo` 改写 → 强推 → GitHub 逐 commit 验证 → 复检
+
+**安全设计**：默认只读；改写必须显式 `--rewrite`；强制先备份；只打印指纹不打印明文。
+
+> ⚠️ **真实教训**：这把 Coze key 2026-09-13 被复制进仓库，**两个月后才被发现**。
+> 根因是"复制上游代码"这一步没有密钥扫描 —— 所以才有 `check_repo.py` 的凭据检查。
+
+### 4. 二者配合
 
 ```bash
 python3 scripts/check_repo.py --fix     # 1. 修计数
