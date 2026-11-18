@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **136 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **137 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-136-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-137-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -69,7 +69,9 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 | `code-film-studio` | 代码电影工作室 — Node 驱动的电影级视觉引擎 | ¥39.9 |
 | `remotion-video-master` | Remotion 视频编程大师 — 代码化视频 + 教程场景驱动 | ¥29.9 |
 | `animation-vocabulary` / `find-animation-opportunities` / `improve-animations` / `review-animations` | 动效词汇表 / 动效机会挖掘 / 动效改进 / 动效评审 | ¥9.9 |
-| `awesome-seedance` | Seedance 视频提示词库 | — |### 📈 营销与增长（35）
+| `awesome-seedance` | Seedance 视频提示词库 | — |
+
+### 📈 营销与增长（36）
 
 GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆款公式。
 
@@ -88,7 +90,10 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `link-ops-master` | 短链与归因运营大师 — 命名规范 / UTM / A-B / 转化回传 | ¥29.9 |
 | `x-account-analyzer` / `x-algorithm-expert` / `x-research-master` / `tweet-composer` | X 账号诊断 / 算法机制 / 深度研究 / 推文创作 | ¥9.9 |
 | `timezone-information-arbitrage` | 时区信息套利 — 跨时区信息差机会挖掘 | — |
-| `fabe-sales-script` | FABE 销售法则 — 特点→优势→利益→证据，带机械校验器 | ¥19.9 |### ✍️ 内容创作（16）
+| `fabe-sales-script` | FABE 销售法则 — 特点→优势→利益→证据，带机械校验器 | ¥19.9 |
+| `douyin-comment-crawler` | 抖音评论抓取 — 一级评论 + 二级回复，纯 Python 签名，导出 CSV/JSON | ¥29.9 |
+
+### ✍️ 内容创作（16）
 
 去 AI 味、选题、跨平台改写、信息图、复盘。
 
@@ -101,7 +106,9 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `article-replatformer` / `argument-structure-master` / `x-original-content-creator` | 跨平台改写 / 论证结构 / 原创内容 | — |
 | `youtube-monthly` / `post-writer-pro` / `thread-writer-pro` | 月度总结 / 长文 / 长帖写作 | — |
 | `content-strategy-pro` | 内容策略大师 — 选题到分发的完整策略 | ¥9.9 |
-| `meeting-secretary` | 会议纪要大师 — 录音转结构化纪要 + 待办 | ¥9.9 |### 🛠️ 开发与工程（17）
+| `meeting-secretary` | 会议纪要大师 — 录音转结构化纪要 + 待办 | ¥9.9 |
+
+### 🛠️ 开发与工程（17）
 
 代码审查、证明式校验、前端月报、PPT、技术文档。
 
@@ -112,7 +119,9 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `prototype` / `reading-comprehension-master` / `distribb-skill` | 原型 / 阅读理解 / 分发 | — |
 | `github-skill-audit-install` / `security-audit-master` | Skill 审计安装 / 安全审计 | — |
 | `vocabulary-tiering-master` | 词汇分层大师 — 分级词表构建与记忆优化 | ¥9.9 |
-| `claude-gateway-integration` | Claude Gateway 接入指南 — Anthropic 兼容网关实测分析 + 端点探测脚本 | ¥19.9 |### 🎨 设计与可视化（13）
+| `claude-gateway-integration` | Claude Gateway 接入指南 — Anthropic 兼容网关实测分析 + 端点探测脚本 | ¥19.9 |
+
+### 🎨 设计与可视化（13）
 | `ub-quality-gates` | 极致代码质量门大师 — Uncle Bob 纪律 + CRAP/重复/变异测试三道自动门禁 | ¥29.9 |
 | `ub-mode` | Uncle Bob 编程纪律原版 — 先能跑、再正确、后守纪律 | ¥9.9 |
 | `free-model-router` | 免费模型路由大师 — OpenRouter 免费模型发现 + fail-closed 防扣费 + Pi 集成 | ¥19.9 |
@@ -128,7 +137,9 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `tailwind-design-system` / `midjourney-quick-ref` | Tailwind 设计系统 / MJ 速查 | ¥14.9 / — |
 | `elevenlabs` | ElevenLabs 语音合成指南 | — |
 | `flux-best-practices` | FLUX 图像生成最佳实践 | — |
-| `answer-me-with-html` | 一页 HTML 讲解图 — Markdown 草稿自动渲染成自包含页面 | ¥29.9 |### 💼 个人 IP 与商业（17）
+| `answer-me-with-html` | 一页 HTML 讲解图 — Markdown 草稿自动渲染成自包含页面 | ¥29.9 |
+
+### 💼 个人 IP 与商业（17）
 
 | Skill | 说明 | 定价 |
 |-------|------|------|
@@ -145,7 +156,9 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `earnings-preview-master` | 财报预期大师 — 业绩前瞻与预期差分析 | ¥19.9 |
 | `life-decision-master` | 人生决策大师 — 结构化决策框架 | ¥9.9 |
 | `options-payoff-visualizer` | 期权收益可视化 — 盈亏结构直观呈现 | — |
-| `stock-monthly` / `stock-correlation-analyst` / `stock-strategy-collection` | 月度复盘 / 相关性分析 / 策略合集 | ¥9.9 |### 🧰 集合包（9 个目录）
+| `stock-monthly` / `stock-correlation-analyst` / `stock-strategy-collection` | 月度复盘 / 相关性分析 / 策略合集 | ¥9.9 |
+
+### 🧰 集合包（9 个目录）
 | `cinecode` | 代码电影引擎 — Quick/Film 双模式，60 套视觉风格，输出 -14 LUFS MP4 | ¥39.9 |
 | `awesome-seedance` | Seedance 视频提示词库 | — |
 | `koubo-video-pipeline` | 口播短视频全流程流水线 | ¥29.9 |

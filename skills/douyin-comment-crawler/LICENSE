@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2026 AI Skills 创作小店 / gyc567
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+关于上游来源与许可的说明（ATTRIBUTION NOTICE）
+
+本 Skill 的能力方向参考了社区项目 alphaply/DouyinComments
+(https://github.com/alphaply/DouyinComments)。
+
+该仓库未声明许可证，其签名逻辑参考自 ShilongLee/Crawler，该项目采用
+「非商业使用许可证 1.0」，明确限制为非商业用途。
+
+因此本 Skill 未复制、未改编上述任何源代码文件。scripts/abogus.py 中的
+签名实现系依据公开标准算法独立编写：
+
+  * SM3 —— GB/T 32905-2016《信息安全技术 SM3 密码杂凑算法》
+  * RC4 —— 经典 KSA/PRGA 流密码
+  * Base64 —— RFC 4648 标准 base64 的字母表替换变体
+
+上述标准算法与规范本身不受版权保护。本文件中的 MIT 许可证仅覆盖本仓库
+作者撰写的代码与文档。
+
+若后续需要在此 Skill 基础上提供商业化服务，请自行确认目标平台的服务条款
+与当地法律法规的合规性。
