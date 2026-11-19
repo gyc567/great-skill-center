@@ -2,7 +2,7 @@
 
 > **用一个真实存在的机器来讲清楚一个概念。**
 > 不是画方框加箭头 —— 造一台会动的小仪器，让读者认出它。
-> 品牌化改造：AI Skills 创作小店
+> **AI Skills 创作小店** 整理版 · 上游项目经许可保留原署名与许可证
 
 [![许可](https://img.shields.io/badge/许可-MIT-blue)](https://opensource.org/licenses/MIT)
 [![Node](https://img.shields.io/badge/Node-%E2%89%A5%2020.10-green)](https://nodejs.org/)

@@ -1,0 +1,6 @@
+node_modules/
+out/
+src/_generated.jsx
+src/_generated_index.jsx
+.DS_Store
+*.log

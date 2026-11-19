@@ -79,17 +79,21 @@ def tool_label(path):
 def fingerprint(path):
     """内容指纹 —— 忽略 mtime，只看文件内容，跨机器可比。"""
     h = hashlib.sha256()
-    for root, dirs, files in sorted(os.walk(path)):
-        dirs[:] = sorted(d for d in dirs if d not in SKIP_DIRS)
-        for f in sorted(files):
+    # os.walk 是惰性的，必须先收集全部结果再排序；只排 dirs 不足以固定顺序，
+    # 因为 walk 的产出顺序取决于底层目录项顺序，跨机器可能不同。
+    entries = []
+    for root, dirs, files in os.walk(path):
+        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
+        for f in files:
             if f.endswith(SKIP_SUFFIX):
                 continue
-            fp = Path(root) / f
-            h.update(str(fp.relative_to(path)).encode())
-            try:
-                h.update(fp.read_bytes())
-            except OSError:
-                h.update(b"<unreadable>")
+            entries.append(Path(root) / f)
+    for fp in sorted(entries, key=lambda p: str(p.relative_to(path))):
+        h.update(str(fp.relative_to(path)).encode())
+        try:
+            h.update(fp.read_bytes())
+        except OSError:
+            h.update(b"<unreadable>")
     return h.hexdigest()[:16]
 
 

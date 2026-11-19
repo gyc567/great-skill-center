@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **137 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **147 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-137-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-147-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -48,7 +48,7 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 
 ## 六大分类
 
-### 🎬 视频与电影（29）
+### 🎬 视频与电影（39）
 
 电影级视觉语言、AI 视频提示词、成片合成、动效引擎。
 
@@ -70,6 +70,16 @@ npx degit gyc567/great-skill-center/skills/geo-audit ~/.agents/skills/geo-audit
 | `remotion-video-master` | Remotion 视频编程大师 — 代码化视频 + 教程场景驱动 | ¥29.9 |
 | `animation-vocabulary` / `find-animation-opportunities` / `improve-animations` / `review-animations` | 动效词汇表 / 动效机会挖掘 / 动效改进 / 动效评审 | ¥9.9 |
 | `awesome-seedance` | Seedance 视频提示词库 | — |
+| `hyperframes` | HTML 写视频 — 9 个子 Skill 的浏览器渲染视频框架（Apache-2.0） | ¥39.9 |
+| `animated-explainer-skills` | Kurzgesagt 风格动画讲解 — 4 个子 Skill，单文件 HTML 产出 | ¥39.9 |
+| `explainer-video-skills` | 讲解视频合集 — 脚本/分镜/渲染 + 图表·白板·等距动画 | ¥29.9 |
+| `manim-skill` | Manim 数学动画 — CE 与 GL 双版本最佳实践 + 可运行示例 | ¥29.9 |
+| `higgsfield-skills` | Higgsfield AI 合集 — 9 个子 Skill，图像/视频/3D/音频生成 | ¥39.9 |
+| `vox-explainer` | Vox 风格解说视频 — 一个提示词到成片（脚本→关键帧→配音→成片） | ¥29.9 |
+| `knowledge-explainer-skill` | 文档转讲解动画 — Remotion 渲染，纯本地不依赖云 API | ¥19.9 |
+| `science-content-ppt` | 科普内容转 PPT 风格动画网页 — 双模式（仿 PPT 轮播 / 流程图） | ¥19.9 |
+| `visual-explainer-skill` | 视觉讲解图 — 白板/信息图/幻灯/思维导图/线框稿 | ¥29.9 |
+| `whiteboard-explainer` | 白板手绘风讲解视频 — HyperFrames 架构，逐元素隔离作画 | ¥19.9 |
 
 ### 📈 营销与增长（36）
 
