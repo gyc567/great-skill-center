@@ -1,8 +1,8 @@
 # AI Skills 创作小店
 
-> **147 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
+> **148 个可直接投产的 AI Agent Skills** —— 营销增长、视频电影、内容创作、开发工程、个人 IP、电商出海六大领域，全部免费使用。
 
-[![Skills](https://img.shields.io/badge/Skills-147-blue)](skills/)
+[![Skills](https://img.shields.io/badge/Skills-148-blue)](skills/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Author](https://img.shields.io/badge/author-ERIC-orange)](https://topdigg.com)
 
@@ -103,7 +103,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `fabe-sales-script` | FABE 销售法则 — 特点→优势→利益→证据，带机械校验器 | ¥19.9 |
 | `douyin-comment-crawler` | 抖音评论抓取 — 一级评论 + 二级回复，纯 Python 签名，导出 CSV/JSON | ¥29.9 |
 
-### ✍️ 内容创作（16）
+### ✍️ 内容创作（17）
 
 去 AI 味、选题、跨平台改写、信息图、复盘。
 
@@ -117,6 +117,7 @@ GEO（生成式引擎优化）全链路、竞品情报、关键词研究、爆�
 | `youtube-monthly` / `post-writer-pro` / `thread-writer-pro` | 月度总结 / 长文 / 长帖写作 | — |
 | `content-strategy-pro` | 内容策略大师 — 选题到分发的完整策略 | ¥9.9 |
 | `meeting-secretary` | 会议纪要大师 — 录音转结构化纪要 + 待办 | ¥9.9 |
+| `story-studio` | 故事工坊 — 选题→文案→配音→配图→剪映草稿一条龙（CC BY-NC-SA 4.0） | 非商用 |
 
 ### 🛠️ 开发与工程（17）
 
@@ -233,6 +234,25 @@ great-skill-center/
 发现问题和改进建议，欢迎直接联系 ERIC（见下方联系方式），或提 Issue / Pull Request。
 
 新增 Skill 请遵循 `skills/` 下现有规范：`SKILL.md` 置于目录根部、frontmatter 完整、附 `references/` 或 `templates/`。
+
+---
+
+## ⚠️ 许可说明：哪些 Skill 不能卖
+
+本仓库收录的 Skill 分两类：
+
+- **可商用** —— 采用 MIT / Apache-2.0 等宽松许可，可打包在 SkillPay 上架售卖。
+- **仅非商用** —— 采用 CC BY-NC-SA 4.0 等限制性许可，**只供学习研究与个人非商业创作**，
+  严禁商业转售、付费二次打包、商业课程分发或作为商业付费工具提供服务。
+
+当前**仅非商用**收录的 Skill：
+
+| Skill | 许可 | 作者 |
+|---|---|---|
+| `story-studio` | CC BY-NC-SA 4.0 | konlu |
+
+这类 Skill 的定价列标记为「非商用」，**不会在 SkillPay 上架**。若需商业使用，
+必须事先取得原作者书面授权。
 
 ---
 

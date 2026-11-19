@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog_directory",
+  "asset_role": "body_style_reference",
+  "provenance": "User-provided existing creative outputs; original private filesystem paths are not distributed.",
+  "historical_evidence": false,
+  "subject_identity_verified": false,
+  "generation_model_verified": false,
+  "review_scope": "Visual selection, unchanged decoded pixels, file integrity and metadata inspection; not a generation reproduction test.",
+  "rights_note": "No additional redistribution license is granted by this catalog; see the project content and license notice.",
+  "styles": {
+    "historical-realism": {
+      "status": "text_only",
+      "reason": "No visually reviewed matching output selected; use the style rules without borrowing another style.",
+      "images": []
+    },
+    "historical-comic": {
+      "status": "visual_references_available",
+      "images": [
+        {
+          "id": "HC01",
+          "path": "historical-comic/HC01-dim-interior.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "730a2e153262e7e45fae2b92b60e79bf61c3cc30bcbf8d53962bf9321c465b8e",
+          "pixel_sha256": "04041311ec97d3f055b55b5db5e580a8a38ba69ecf44fcdc7dccc9b610459c3a",
+          "scene_note": "帐内人物与门外亮部，侧面面部、布料与木材的破碎笔触。",
+          "selection_tags": [
+            "dim-interior",
+            "male",
+            "layered-space"
+          ],
+          "style_attributes": [
+            "暗部保留层次",
+            "局部暖光",
+            "人物与环境厚涂笔触"
+          ]
+        },
+        {
+          "id": "HC02",
+          "path": "historical-comic/HC02-outdoor-figure.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "e6705ab48d66bb40f3614c9e057252667e24359e3d2bd5a74bb8da25bcb3526d",
+          "pixel_sha256": "67ccac335a7c492e27d4929f4dc4b1cf4d9a88421b1012e823ace5b2fc7cea9f",
+          "scene_note": "持弓人物与户外群像，衣料块面与云层、土石的手绘肌理。",
+          "selection_tags": [
+            "outdoor",
+            "male",
+            "group",
+            "action"
+          ],
+          "style_attributes": [
+            "明确主人物",
+            "云层与衣料笔触",
+            "赭褐配色"
+          ]
+        },
+        {
+          "id": "HC03",
+          "path": "historical-comic/HC03-daylight-study.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "b1bd2c91f2333733d81786e78379ff43ac894f6c4df70a5d24440dedea9102a9",
+          "pixel_sha256": "761510b3d92a516a8a0e254b02de42c391a1241697feeb69f0b98c3ca048b474",
+          "scene_note": "女性整理竹简的明亮室内，细腻面部与较粗放的建筑背景。",
+          "selection_tags": [
+            "interior",
+            "female",
+            "daylight",
+            "quiet-action"
+          ],
+          "style_attributes": [
+            "女性面部与手部可读",
+            "明亮暖灰层次",
+            "静态动作同样有叙事"
+          ]
+        },
+        {
+          "id": "HC04",
+          "path": "historical-comic/HC04-object-detail.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "ea9365d110a5416e7d6ffcf035ada9611617525e3ea1dafbf9173d6c1e422386",
+          "pixel_sha256": "f4bd79cfd8856d9ed211217cb5ee7a049e3168bd707f57e59be79fe1699c1c0f",
+          "scene_note": "手部、竹简与木案的近景，侧光强调物件材质与空间层次。",
+          "selection_tags": [
+            "detail",
+            "hand",
+            "objects",
+            "daylight"
+          ],
+          "style_attributes": [
+            "关键物件清楚",
+            "木竹与衣料材质",
+            "背景笔触有层次"
+          ]
+        },
+        {
+          "id": "HC05",
+          "path": "historical-comic/HC05-wide-landscape.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "6f60db7d6380dd1b4cf78498d0af07153daa421a796b2b43bd669283b03483e9",
+          "pixel_sha256": "d0562084c9be0f1fa897b56168176cd806fb159f3d160d9d70a038b5f592d5a1",
+          "scene_note": "俯视军营与山谷远景，斜向层次、群像尺度与天光组织。",
+          "selection_tags": [
+            "wide",
+            "outdoor",
+            "group",
+            "landscape"
+          ],
+          "style_attributes": [
+            "远近层次",
+            "大场面明确主次",
+            "暖亮部与灰冷山体"
+          ]
+        },
+        {
+          "id": "HC06",
+          "path": "historical-comic/HC06-modern-outdoor.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "cf6f96bf2b9c152dd1f76b28ea82e9bbf60210bad863511cfa9343423c659100",
+          "pixel_sha256": "d9af607ff7d1e24a012aa5dc1ac205eea6f89af63ba14a35e380bd52158fbee3",
+          "scene_note": "近现代军装人物在船舷旁，海面、云层与大衣的厚涂材质。",
+          "selection_tags": [
+            "modern-period",
+            "outdoor",
+            "male",
+            "water"
+          ],
+          "style_attributes": [
+            "跨时期保持绘画材质",
+            "面部精细与环境粗放的关系",
+            "灰冷海面与局部暖光"
+          ]
+        }
+      ]
+    },
+    "monochrome-narrative": {
+      "status": "visual_references_available",
+      "color_note": "Near-neutral RGB originals, not mathematically single-channel images. Residual channel differences are not a generation target; new body images remain neutral black and white.",
+      "selection_check": {
+        "mean_max_pair_at_most": 1,
+        "p99_max_pair_at_most": 4,
+        "range": 255
+      },
+      "images": [
+        {
+          "id": "MN01",
+          "path": "monochrome-narrative/MN01-window-manuscripts.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "fba4c45f903237127ddde5ca364b56085cdc1ba0a65e62a12b7d71d9927a5b28",
+          "pixel_sha256": "86f62c1fef02209fda5a9c1300c5d753fc5bb43ae502f3790d51d935e2bf3791",
+          "scene_note": "年长女性在窗边整理手稿，自然年龄纹理、柔和日光和丰富中间调。",
+          "selection_tags": [
+            "elder",
+            "interior",
+            "daylight",
+            "quiet-action"
+          ],
+          "style_attributes": [
+            "摄影写实",
+            "柔和窗光",
+            "自然年龄与灰阶"
+          ],
+          "rgb_channel_difference": {
+            "maximum": 8,
+            "mean_max_pair": 0.444148,
+            "p99_max_pair": 2
+          }
+        },
+        {
+          "id": "MN02",
+          "path": "monochrome-narrative/MN02-night-exterior.png",
+          "width": 940,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "4e693d91e1c326f2607ffbc4d9e6deccf2a918c6f5208c19ba0abab4acfc0d62",
+          "pixel_sha256": "befe3123cd64a2dcf96144073c3fa1f9d108e28e8ab64f9fab76744e20f00cdf",
+          "scene_note": "低照度雪夜门前两位女性，深色衣料、门灯与地面反光分出层次。",
+          "selection_tags": [
+            "female",
+            "outdoor",
+            "low-light",
+            "two-person"
+          ],
+          "style_attributes": [
+            "低照度保留细节",
+            "局部受光与黑位",
+            "克制人物关系"
+          ],
+          "rgb_channel_difference": {
+            "maximum": 12,
+            "mean_max_pair": 0.545584,
+            "p99_max_pair": 3
+          }
+        },
+        {
+          "id": "MN03",
+          "path": "monochrome-narrative/MN03-outdoor-engineering.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "e281b0b43d0573d67a1d8f6757c79e87c0533ecd9f13342423889f887a4edd3f",
+          "pixel_sha256": "838a2151630fbeccff492aefcf1361de4b1bb8e265dcd27a7076f3fc8aaeb5db",
+          "scene_note": "戴安全帽的年长女性与远处工程、河面、山体，明亮灰阶与环境纵深。",
+          "selection_tags": [
+            "elder",
+            "outdoor",
+            "wide",
+            "daylight"
+          ],
+          "style_attributes": [
+            "明亮黑白并非全图压暗",
+            "前景人物与远景层次",
+            "真实材质与空间"
+          ],
+          "rgb_channel_difference": {
+            "maximum": 8,
+            "mean_max_pair": 0.588224,
+            "p99_max_pair": 2
+          }
+        },
+        {
+          "id": "MN04",
+          "path": "monochrome-narrative/MN04-indoor-discussion.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "b5642bbcbb82bc1fe5f1c1fb69553d43a17c72c9bbc8e478d90cdb97d3ee633d",
+          "pixel_sha256": "54b83307885dcefcccb8aaa0a9a5113406e61d39708f8005a6568d28a2e572ee",
+          "scene_note": "室内多人讨论，男性主讲与听众围桌，窗光、深色衣料和桌面形成灰阶区分。",
+          "selection_tags": [
+            "male",
+            "interior",
+            "group",
+            "daylight"
+          ],
+          "style_attributes": [
+            "群像视线与动作",
+            "自然室内光照",
+            "人物与物件的灰阶分离"
+          ],
+          "rgb_channel_difference": {
+            "maximum": 9,
+            "mean_max_pair": 0.736937,
+            "p99_max_pair": 3
+          }
+        },
+        {
+          "id": "MN05",
+          "path": "monochrome-narrative/MN05-seascape.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "604852079c9504c8c633df7d0ef7c4d93c802f4da7c671ae14fa8168aef3903e",
+          "pixel_sha256": "2951b6dc4b4ba47c51725b6d9e5b9ee2ef0cd4400d8ed4c4a06c7613dd7074da",
+          "scene_note": "无人海面、云层与低角度天光，用黑白明暗组织环境层次。",
+          "selection_tags": [
+            "environment",
+            "no-person",
+            "outdoor",
+            "wide"
+          ],
+          "style_attributes": [
+            "无人镜同样保持摄影语言",
+            "海面与云层材质",
+            "灰阶纵深"
+          ],
+          "rgb_channel_difference": {
+            "maximum": 12,
+            "mean_max_pair": 0.825517,
+            "p99_max_pair": 4
+          }
+        },
+        {
+          "id": "MN06",
+          "path": "monochrome-narrative/MN06-workshop.png",
+          "width": 941,
+          "height": 1672,
+          "mode": "RGB",
+          "sha256": "8c1b7fd082f227bbdf89e9f1d0c7fdc124759217cb82890ba18cb20cc0564f1e",
+          "pixel_sha256": "d842538de99b5f0193fd9ffce109dadf2f989c590a7910a52d49445a19c56120",
+          "scene_note": "女孩在纺织机器旁，后方成年男性与机器序列形成室内纵深。",
+          "selection_tags": [
+            "child",
+            "interior",
+            "multiple-people",
+            "side-light"
+          ],
+          "style_attributes": [
+            "年龄与皮肤自然",
+            "侧光和布料金属材质",
+            "人物环境关系"
+          ],
+          "rgb_channel_difference": {
+            "maximum": 11,
+            "mean_max_pair": 0.655345,
+            "p99_max_pair": 3
+          }
+        }
+      ]
+    }
+  },
+  "redistribution_note": "Images re-encoded to 256-colour palette PNG for repository size; sha256/pixel_sha256 updated accordingly. Visual content unchanged (PSNR >= 38 dB)."
+}
